@@ -1,0 +1,3 @@
+实现Web端开发：使用nginx + uwsgi + Django + MySQL + redis实现
+大致实现Server开发：使用nginx + fastcgi + fastdfs + c + mysql + redis开发
+暂未实现client端开发：预计使用Qt + C++实现
