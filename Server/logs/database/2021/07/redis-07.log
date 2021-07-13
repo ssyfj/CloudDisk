@@ -1,0 +1,31 @@
+[2021-07-07 10:34:58]--[./common/redis_op.c:363]--[-][GMS_REDIS]Connect 127.0.0.1:6379 Error:Connection refused
+[2021-07-07 11:44:40]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 11:44:40]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 11:47:14]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 11:47:14]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 15:01:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 15:01:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 15:14:38]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 15:14:38]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 15:18:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 15:18:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 15:21:46]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 15:21:46]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:18:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:18:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:18:17]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:18:17]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:18:18]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:18:18]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:18:18]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:18:18]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:18:38]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:18:38]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 18:23:26]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 18:23:26]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 19:25:53]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 19:25:53]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 19:28:40]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 19:28:40]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-07 19:36:42]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-07 19:36:42]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

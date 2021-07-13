@@ -1,0 +1,16 @@
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:252]--buf = {"user":"njzy","pwd":"25f9e794323b453885f5181f1b624d0b"}
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:259]--username = njzy,pwd = 25f9e794323b453885f5181f1b624d0b
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:83]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:102]--input password:25f9e794323b453885f5181f1b624d0b , mysql password:25f9e794323b453885f5181f1b624d0b
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:130]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:152]--tmp = njzy695969990682
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:169]--base64 = 9RQQ32xm6VcQNl8P6jSnDS0ZxLNK7pNJ
+[2021-07-12 19:37:59]--[./src_cgi/login_cgi.c:268]--username = njzy,token = 9c757c6e0b77c7fbb0164b35c5281fe8
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:252]--buf = {"user":"cajs","pwd":"552e6a97297c53e592208cf97fbb3b60"}
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:259]--username = cajs,pwd = 552e6a97297c53e592208cf97fbb3b60
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:83]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:102]--input password:552e6a97297c53e592208cf97fbb3b60 , mysql password:552e6a97297c53e592208cf97fbb3b60
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:130]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:152]--tmp = cajs466579354845
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:169]--base64 = ZjuG8b7sDZUXUxt2W0LIcy0ZxLNK7pNJ
+[2021-07-12 20:40:00]--[./src_cgi/login_cgi.c:268]--username = cajs,token = b96cd29f544d63849d5414922ed0bf83

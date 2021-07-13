@@ -1,0 +1,9 @@
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:841]--Success upload file:unnamed.jpg,filesize:1776045,md5:76c571532d388d4c03c980cf7c66be8. by [njzy]
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDtA7-ASpSBABsZrW5X8QY645.jpg
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDtA7-ASpSBABsZrW5X8QY645.jpg!
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('76c571532d388d4c03c980cf7c66be8','group1/M00/00/00/wKgBgWDtA7-ASpSBABsZrW5X8QY645.jpg','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDtA7-ASpSBABsZrW5X8QY645.jpg',1776045,'jpg',1)]
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','76c571532d388d4c03c980cf7c66be8','unnamed.jpg',0,0)]
+[2021-07-13 11:08:47]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 81 where user = 'njzy']

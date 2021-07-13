@@ -1,0 +1,4 @@
+[2021-07-12 20:39:45]--[./src_cgi/register_cgi.c:202]--buf = {"username":"cajs","nickname":"cajs","password":"552e6a97297c53e592208cf97fbb3b60","phone":"18904190312","email":"6254742@gmail.com"}
+[2021-07-12 20:39:45]--[./src_cgi/register_cgi.c:214]--Register:username = cajs,nickname = cajs,password = 552e6a97297c53e592208cf97fbb3b60,phone = 18904190312,email = 6254742@gmail.com
+[2021-07-12 20:39:45]--[./src_cgi/register_cgi.c:104]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2021-07-12 20:39:45]--[./src_cgi/register_cgi.c:137]--mysql_query insert success: user[cajs]

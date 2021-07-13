@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)./index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Cloud Disk</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/static/img/core-img/favicon.ico">
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+    <!-- Core Stylesheet -->
+    <link href="/static/css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="/static/css/responsive.css" rel="stylesheet">
+    <style type="text/css">
+        .single-icon > i {
+            font-size: 100px;
+            color: #868e96;
+        }
+        .team-hover-effects {
+            position: absolute;
+            top: 0;
+            left: 30px;
+            width: 100px;
+            height: 100px;
+            background-color: #c5e4b6;
+            border-radius: 10px 10px 10px 10px;
+            opacity: 0;
+            -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+            -webkit-transition: all 500ms;
+            -o-transition: all 500ms;
+            transition: all 500ms;
+        }
+        .p-front {
+            color: #17a2b8;
+            font-size: 16px;
+            font-weight: 300;
+            margin-top: 10px;
+            white-space:nowrap; 
+            text-overflow:ellipsis; 
+            overflow:hidden;
+        }
+        body {
+            font-family: 'Cabin', sans-serif;
+            background-color: #f5f9fc;
+        }
+        .cool_facts_area_2 {
+            position: relative;
+            z-index: auto;
+            background: #a865e1;
+            background: -webkit-linear-gradient(to left, #7873ed, #a865e1);
+            background: -webkit-linear-gradient(right, #7873ed, #a865e1);
+            background: -webkit-gradient(linear, right top, left top, from(#7873ed), to(#a865e1));
+            background: -o-linear-gradient(right, #7873ed, #a865e1);
+            background: linear-gradient(to left, #7873ed, #a865e1);
+            padding: 40px 0 180px 0;
+            top: -100px;
+        }
+        .sec_page {
+            background: rgb(245, 249, 252);
+            box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px !important;
+            padding-bottom: 0px;
+            margin-bottom: 0px !important;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader Start -->
+        <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center" style="margin-top: -20px;">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light" style="margin-top: 20px;">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="./index.html#">Cda.</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="./myfile.html">MyFile</a></li>
+                                    <li class="nav-item active"><a class="nav-link" href="./sharefile.html">ShareFile</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="./uploadfile.html">UploadFile</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    <a href="javascript:void(0);" onclick="logout()">{{ user }} | LogOut</a>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        <a href="javascript:void(0);" onclick="logout()">{{ user }} | LogOut</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+    
+    {% include 'count.html' %}
+
+    <!-- ***** Cool Facts Area Start ***** -->
+    <section class="cool_facts_area_2 clearfix sec_page">
+        <div class="container text-center">
+            <div class="row">
+                {% for file in posts %}
+                <div class="col-12 col-md-6 col-lg-2 filemember" data-member-id="1">
+                    <div class="single-team-member" id='{{ file.id }}'>
+                        <div class="member-image">
+                            <div class="single-icon">
+                                <i class="ti-file" aria-hidden="true"></i>
+                                <p class="p-front">{{file.file_name}}</p>
+                            </div>
+                            <div class="team-hover-effects">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="row justify-content-center">
+            <ul class="slick-dots pagination  pagination-lg" style="display: flex;" role="tablist">
+                {% if posts.has_previous %}
+                <li><a href="?p={{ posts.previous_page_number }}">&laquo;</a></li>
+                {% endif %}
+
+                {% for pg in posts.paginator.page_range %}
+                    {% if posts.number == pg %}
+                        <li class="active"><a href="?p={{pg}}">{{pg}}</a></li>
+                    {% else %}
+                        <li><a href="?p={{pg}}">{{pg}}</a></li>
+                    {% endif %}
+                {% endfor %}
+                
+                {% if posts.has_next %}
+                <li><a href="?p={{ posts.next_page_number }}">&raquo;</a></li>
+                {% endif %}
+            </ul>
+            </div>
+        </div>
+    </section>
+    <!-- ***** Cool Facts Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70_0 footer-contact-area clearfix" style="z-index: -101; position: fixed; bottom: 0px; width: 1519px;">
+        <!-- footer logo -->
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html#">About</a></li>
+                    <li><a href="./index.html#">Terms &amp; Conditions</a></li>
+                    <li><a href="./index.html#">Privacy Policy</a></li>
+                    <li><a href="./index.html#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2021 Cda. Designed by <a href="https://www.cnblogs.com/ssyfj/" target="_blank">Ssyfj</a></p>
+        </div>
+    </footer>
+    <!-- ***** Footer Area Start ***** -->
+    <!-- Jquery-2.2.4 JS -->
+    <script src="/static/js/jquery-2.2.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="/static/js/popper.min.js"></script>
+    <!-- jquery.cookie.min JS -->
+    <script src="/static/js/jquery.cookie.min.js"></script>
+    <!-- Common js -->
+    <script src="/static/js/common.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- All Plugins JS -->
+    <script src="/static/js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="/static/js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="/static/js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="/static/js/active.js"></script><a id="scrollUp" href="./index.html#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
+
+
+
+</body></html>

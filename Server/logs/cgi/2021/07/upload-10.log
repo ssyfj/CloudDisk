@@ -1,0 +1,525 @@
+[2021-07-10 10:51:13]--[./src_cgi/upload_cgi.c:115]--Web data Comming ...
+[2021-07-10 10:51:13]--[./src_cgi/upload_cgi.c:49]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 10:51:13]--[./src_cgi/upload_cgi.c:64]--get user[njzy] token failed!
+[2021-07-10 10:52:01]--[./src_cgi/upload_cgi.c:115]--Web data Comming ...
+[2021-07-10 10:52:01]--[./src_cgi/upload_cgi.c:49]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 10:52:01]--[./src_cgi/upload_cgi.c:470]--Success upload file:论文进度.docx,filesize:106554,md5:8ac1be11947a53ad220ebee523c88e0. by [njzy]
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:854]--Success upload file:论文进度.docx,filesize:106554,md5:8ac1be11947a53ad220ebee523c88e0. by [njzy]
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:727]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('8ac1be11947a53ad220ebee523c88e0','group1/M00/00/00/wKgBgWDpS-OAHVn-AAGgOspRecY23.docx','',106554,'docx',1)]
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:739]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','8ac1be11947a53ad220ebee523c88e0','论文进度.docx',0,0)]
+[2021-07-10 15:27:31]--[./src_cgi/upload_cgi.c:767]--Success to exec sql:[insert into user_file_count (user,count) values ('njzy',1)]
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:855]--Success upload file:演讲.doc,filesize:21504,md5:48e23eba50590b5356f76d142882520. by [njzy]
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:728]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('48e23eba50590b5356f76d142882520','group1/M00/00/00/wKgBgmDpTkqAMlOyAABUABkC2DE939.doc','',21504,'doc',1)]
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:740]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','48e23eba50590b5356f76d142882520','演讲.doc',0,0)]
+[2021-07-10 15:37:46]--[./src_cgi/upload_cgi.c:768]--Success to exec sql:[update user_file_count set count = 2 where user = 'njzy']
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:855]--Success upload file:演讲.doc,filesize:21504,md5:48e23eba50590b5356f76d142882520. by [njzy]
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:868]--Origin file is exists!
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:656]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','48e23eba50590b5356f76d142882520','演讲.doc',0,0)]
+[2021-07-10 15:38:39]--[./src_cgi/upload_cgi.c:684]--Success to exec sql:[update user_file_count set count = 3 where user = 'njzy']
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:855]--Success upload file:发展党员票决制文件附件.pdf,filesize:66308,md5:4e04ad917b40145184349857ac93df1. by [njzy]
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:728]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('4e04ad917b40145184349857ac93df1','group1/M00/00/00/wKgBgWDpUUKAVUSZAAEDBI2dITc885.pdf','',66308,'pdf',1)]
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:740]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','4e04ad917b40145184349857ac93df1','发展党员票决制文件附件.pdf',0,0)]
+[2021-07-10 15:50:26]--[./src_cgi/upload_cgi.c:768]--Success to exec sql:[update user_file_count set count = 4 where user = 'njzy']
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:855]--Success upload file:刘谍-论文进度 .docx,filesize:106749,md5:a00d2d90eefc2941a66d03f62599db7. by [njzy]
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:728]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('a00d2d90eefc2941a66d03f62599db7','group1/M00/00/00/wKgBgmDpUpqAIUtNAAGg_RibYiA21.docx','',106749,'docx',1)]
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:740]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','a00d2d90eefc2941a66d03f62599db7','刘谍-论文进度 .docx',0,0)]
+[2021-07-10 15:56:10]--[./src_cgi/upload_cgi.c:768]--Success to exec sql:[update user_file_count set count = 5 where user = 'njzy']
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:856]--Success upload file:刘谍开题登记表.pdf,filesize:211739,md5:d7c461dc1d7e89d74ed9dcc23041c6c. by [njzy]
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:729]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('d7c461dc1d7e89d74ed9dcc23041c6c','group1/M00/00/00/wKgBgWDpVHGAYzJLAAM7G4Ba1Ak169.pdf','',211739,'pdf',1)]
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:741]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','d7c461dc1d7e89d74ed9dcc23041c6c','刘谍开题登记表.pdf',0,0)]
+[2021-07-10 16:04:01]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[update user_file_count set count = 6 where user = 'njzy']
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:818]--Success upload file:精确时间同步.pdf,filesize:3093801,md5:ll,. by [njzy]
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:691]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,','group1/M00/00/00/wKgBgmDpVbWABd-nAC81KaBuYNE650.pdf','http://0.0.0.0:/group1/M00/00/00/wKgBgmDpVbWABd-nAC81KaBuYNE650.pdf',3093801,'pdf',1)]
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:703]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','精确时间同步.pdf',0,0)]
+[2021-07-10 16:09:25]--[./src_cgi/upload_cgi.c:731]--Success to exec sql:[update user_file_count set count = 7 where user = 'njzy']
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:818]--Success upload file:刘谍 (2).doc,filesize:217262,md5:d9fc5553f2ccd7467aff04bc3ab1404. by [njzy]
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:691]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('d9fc5553f2ccd7467aff04bc3ab1404','group1/M00/00/00/wKgBgWDpViuACmm6AANQrvP04-4179.doc','http://0.0.0.0:/group1/M00/00/00/wKgBgWDpViuACmm6AANQrvP04-4179.doc',217262,'doc',1)]
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:703]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','d9fc5553f2ccd7467aff04bc3ab1404','刘谍 (2).doc',0,0)]
+[2021-07-10 16:11:23]--[./src_cgi/upload_cgi.c:731]--Success to exec sql:[update user_file_count set count = 8 where user = 'njzy']
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:834]--Success upload file:06899579.pdf,filesize:1221333,md5:70439933473d7451a310d2e9c3de784. by [njzy]
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('70439933473d7451a310d2e9c3de784','group1/M00/00/00/wKgBgmDpW_WAFb6xABKi1Xe7AkU683.pdf','http://0.0.0.0:/group1/M00/00/00/wKgBgmDpW_WAFb6xABKi1Xe7AkU683.pdf',1221333,'pdf',1)]
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:719]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','70439933473d7451a310d2e9c3de784','06899579.pdf',0,0)]
+[2021-07-10 16:36:05]--[./src_cgi/upload_cgi.c:747]--Success to exec sql:[update user_file_count set count = 9 where user = 'njzy']
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:897]--Success upload file:刘谍硕士学位论文开题登记表.doc,filesize:26158,md5:ea2d012c3d3e5e5658c5853b0cccf7c. by [njzy]
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:770]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ea2d012c3d3e5e5658c5853b0cccf7c','group1/M00/00/00/wKgBgWDpXxOAOrKgAABmLnpAc5I801.doc','http://0.0.0.0:/group1/M00/00/00/wKgBgWDpXxOAOrKgAABmLnpAc5I801.doc',26158,'doc',1)]
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:782]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ea2d012c3d3e5e5658c5853b0cccf7c','刘谍硕士学位论文开题登记表.doc',0,0)]
+[2021-07-10 16:49:23]--[./src_cgi/upload_cgi.c:810]--Success to exec sql:[update user_file_count set count = 10 where user = 'njzy']
+[2021-07-10 16:58:59]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 16:58:59]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 16:58:59]--[./src_cgi/upload_cgi.c:876]--Success upload file:发展对象材料汇总清单 (1).pdf,filesize:61703,md5:7c8da8a0a3a1ab5e2e3dca2705e477d. by [njzy]
+[2021-07-10 16:58:59]--[./src_cgi/upload_cgi.c:423]--Failed to upload file to fdfs system!
+[2021-07-10 16:58:59]--[./src_cgi/upload_cgi.c:901]--Failed upload file:发展对象材料汇总清单 (1).pdf to fdfs system!
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:876]--Success upload file:06899579.pdf,filesize:1221333,md5:70439933473d7451a310d2e9c3de784. by [njzy]
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:889]--Origin file is exists!
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:677]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','70439933473d7451a310d2e9c3de784','06899579.pdf',0,0)]
+[2021-07-10 18:28:38]--[./src_cgi/upload_cgi.c:705]--Success to exec sql:[update user_file_count set count = 11 where user = 'njzy']
+[2021-07-10 18:30:14]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:30:14]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:30:14]--[./src_cgi/upload_cgi.c:876]--Success upload file:09149796.pdf,filesize:2035280,md5:63b828b089f202da91dfc6774e52220. by [njzy]
+[2021-07-10 18:30:14]--[./src_cgi/upload_cgi.c:423]--Failed to upload file to fdfs system!
+[2021-07-10 18:30:14]--[./src_cgi/upload_cgi.c:901]--Failed upload file:09149796.pdf to fdfs system!
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:897]--Success upload file:TNET.2016.2608441.pdf,filesize:2911571,md5:ll,. by [njzy]
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:910]--Origin file is exists!
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:698]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','TNET.2016.2608441.pdf',0,0)]
+[2021-07-10 18:36:09]--[./src_cgi/upload_cgi.c:726]--Success to exec sql:[update user_file_count set count = 12 where user = 'njzy']
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:897]--Success upload file:TNET.2019.2918782.pdf,filesize:61661,md5:a46d16b2aee7d0467cc839cd34f0bd0. by [njzy]
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:770]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('a46d16b2aee7d0467cc839cd34f0bd0','group1/M00/00/00/wKgBgmDpeJGAMewyAADw3RzUsCo162.pdf','',61661,'pdf',1)]
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:782]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','a46d16b2aee7d0467cc839cd34f0bd0','TNET.2019.2918782.pdf',0,0)]
+[2021-07-10 18:38:09]--[./src_cgi/upload_cgi.c:810]--Success to exec sql:[update user_file_count set count = 13 where user = 'njzy']
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:897]--Success upload file:TIME4.docx,filesize:659053,md5:5df4364f8b4e1f42770b964380845e5. by [njzy]
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:770]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('5df4364f8b4e1f42770b964380845e5','group1/M00/00/00/wKgBgWDpeLKAKe9zAAoObbu9EOo74.docx','',659053,'docx',1)]
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:782]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','5df4364f8b4e1f42770b964380845e5','TIME4.docx',0,0)]
+[2021-07-10 18:38:42]--[./src_cgi/upload_cgi.c:810]--Success to exec sql:[update user_file_count set count = 14 where user = 'njzy']
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:897]--Success upload file:基于流量调度的动态时间片划分研究.doc,filesize:268800,md5:cbe05894c37d458bd32f9be306cf587. by [njzy]
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:770]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('cbe05894c37d458bd32f9be306cf587','group1/M00/00/00/wKgBgmDpfHWAZtegAAQaAIeF5go009.doc','',268800,'doc',1)]
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:782]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','cbe05894c37d458bd32f9be306cf587','基于流量调度的动态时间片划分研究.doc',0,0)]
+[2021-07-10 18:54:45]--[./src_cgi/upload_cgi.c:810]--Success to exec sql:[update user_file_count set count = 15 where user = 'njzy']
+[2021-07-10 19:01:48]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:01:48]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:01:48]--[./src_cgi/upload_cgi.c:272]--File:新建文本文档.txt check failed!
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:899]--Success upload file:TIME4.pdf,filesize:2405115,md5:ll,8d7e81b304752faaee2482b9ffaf. by [njzy]
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:772]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,8d7e81b304752faaee2482b9ffaf','group1/M00/00/00/wKgBgWDpflKAc1fsACSy-_-dCPg675.pdf','',2405115,'pdf',1)]
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:784]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,8d7e81b304752faaee2482b9ffaf','TIME4.pdf',0,0)]
+[2021-07-10 19:02:42]--[./src_cgi/upload_cgi.c:812]--Success to exec sql:[update user_file_count set count = 16 where user = 'njzy']
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:899]--Success upload file:AnEnhancedReconfigurationforDeterministicTransmissioninTime-TriggeredNetworks.pdf,filesize:27222868,md5:ll,. by [njzy]
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:912]--Origin file is exists!
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:700]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','AnEnhancedReconfigurationforDeterministicTransmissioninTime-TriggeredNetworks.pdf',0,0)]
+[2021-07-10 19:09:48]--[./src_cgi/upload_cgi.c:728]--Success to exec sql:[update user_file_count set count = 17 where user = 'njzy']
+[2021-07-10 19:11:15]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:11:15]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:11:15]--[./src_cgi/upload_cgi.c:899]--Success upload file:TTIME44.docx,filesize:798958,md5:27f2fee83eac15ca08f5fb12ad78ebb. by [njzy]
+[2021-07-10 19:11:16]--[./src_cgi/upload_cgi.c:772]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('27f2fee83eac15ca08f5fb12ad78ebb','group1/M00/00/00/wKgBgmDpgFOALewUAAww7ty0IOc74.docx','',798958,'docx',1)]
+[2021-07-10 19:11:16]--[./src_cgi/upload_cgi.c:784]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','27f2fee83eac15ca08f5fb12ad78ebb','TTIME44.docx',0,0)]
+[2021-07-10 19:11:16]--[./src_cgi/upload_cgi.c:812]--Success to exec sql:[update user_file_count set count = 18 where user = 'njzy']
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:897]--Success upload file:SDN-UDP.pdf,filesize:5843587,md5:ll,. by [njzy]
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:910]--Origin file is exists!
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:698]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','SDN-UDP.pdf',0,0)]
+[2021-07-10 19:26:22]--[./src_cgi/upload_cgi.c:726]--Success to exec sql:[update user_file_count set count = 19 where user = 'njzy']
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:897]--Success upload file:CVPR.2016.90.pdf,filesize:287724,md5:99e9772dbc00249c19b475d74d4c911. by [njzy]
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDphA-ABIibAARj7BJAdXI.90.pdf
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:770]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('99e9772dbc00249c19b475d74d4c911','group1/M00/00/00/wKgBgWDphA-ABIibAARj7BJAdXI.90.pdf','',287724,'pdf',1)]
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:782]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','99e9772dbc00249c19b475d74d4c911','CVPR.2016.90.pdf',0,0)]
+[2021-07-10 19:27:11]--[./src_cgi/upload_cgi.c:810]--Success to exec sql:[update user_file_count set count = 20 where user = 'njzy']
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:898]--Success upload file:01论文导读.doc,filesize:2799104,md5:ll,. by [njzy]
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:911]--Origin file is exists!
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:699]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','01论文导读.doc',0,0)]
+[2021-07-10 19:33:13]--[./src_cgi/upload_cgi.c:727]--Success to exec sql:[update user_file_count set count = 21 where user = 'njzy']
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:898]--Success upload file:动态场景-应用于控制器沟通案例2.pdf,filesize:700071,md5:5a2158bd664a7893133a50ed21755c9. by [njzy]
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:427]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDphZ-AdRxRAAqup5jKBXo784.pdf
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:771]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('5a2158bd664a7893133a50ed21755c9','group1/M00/00/00/wKgBgmDphZ-AdRxRAAqup5jKBXo784.pdf','',700071,'pdf',1)]
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:783]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','5a2158bd664a7893133a50ed21755c9','动态场景-应用于控制器沟通案例2.pdf',0,0)]
+[2021-07-10 19:33:51]--[./src_cgi/upload_cgi.c:811]--Success to exec sql:[update user_file_count set count = 22 where user = 'njzy']
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:899]--Success upload file:动态论文思路.docx,filesize:11308,md5:e1e5681da4ebb467fcc0ca3c79b0c3f. by [njzy]
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpiC2ATm7UAAAsLEAgmQ814.docx
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:556]--get_file_url parent!
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:530]--get_file_url son!
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:772]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('e1e5681da4ebb467fcc0ca3c79b0c3f','group1/M00/00/00/wKgBgWDpiC2ATm7UAAAsLEAgmQ814.docx','',11308,'docx',1)]
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:784]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','e1e5681da4ebb467fcc0ca3c79b0c3f','动态论文思路.docx',0,0)]
+[2021-07-10 19:44:45]--[./src_cgi/upload_cgi.c:812]--Success to exec sql:[update user_file_count set count = 23 where user = 'njzy']
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:886]--Success upload file:动态场景-应用于控制器沟通方案-rfc7491.docx,filesize:139562,md5:9a854b0aab170d6bad401ae3d65b0de. by [njzy]
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpieeAc6-yAAIhKjJTQ2k04.docx
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:543]--get_file_url parent!
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:516]--get_file_url son!
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:531]--url file id: group1/M00/00/00/wKgBgmDpieeAc6-yAAIhKjJTQ2k04.docx!
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:759]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('9a854b0aab170d6bad401ae3d65b0de','group1/M00/00/00/wKgBgmDpieeAc6-yAAIhKjJTQ2k04.docx','',139562,'docx',1)]
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:771]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','9a854b0aab170d6bad401ae3d65b0de','动态场景-应用于控制器沟通方案-rfc7491.docx',0,0)]
+[2021-07-10 19:52:07]--[./src_cgi/upload_cgi.c:799]--Success to exec sql:[update user_file_count set count = 24 where user = 'njzy']
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:887]--Success upload file:SDN+Orchestration+for+Dynamic+End-to-End+Control+o.pdf,filesize:3422373,md5:ll,. by [njzy]
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:900]--Origin file is exists!
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:688]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,','SDN+Orchestration+for+Dynamic+End-to-End+Control+o.pdf',0,0)]
+[2021-07-10 19:55:41]--[./src_cgi/upload_cgi.c:716]--Success to exec sql:[update user_file_count set count = 25 where user = 'njzy']
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:887]--Success upload file:动态场景-应用于控制器沟通方案-rfc7491.docx,filesize:139562,md5:9a854b0aab170d6bad401ae3d65b0de. by [njzy]
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:900]--Origin file is exists!
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:688]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','9a854b0aab170d6bad401ae3d65b0de','动态场景-应用于控制器沟通方案-rfc7491.docx',0,0)]
+[2021-07-10 19:56:14]--[./src_cgi/upload_cgi.c:716]--Success to exec sql:[update user_file_count set count = 26 where user = 'njzy']
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:887]--Success upload file:SDN中基于机器学习的网络流量分类方法研究_李兆斌.pdf,filesize:1721791,md5:8e5bb052f9cc72990540332149422f0. by [njzy]
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpivSAN4jDABpFv_7rf0A919.pdf
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:544]--get_file_url parent!
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:516]--get_file_url son!
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:531]--url file id: group1/M00/00/00/wKgBgWDpivSAN4jDABpFv_7rf0A919.pdf!
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:760]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('8e5bb052f9cc72990540332149422f0','group1/M00/00/00/wKgBgWDpivSAN4jDABpFv_7rf0A919.pdf','',1721791,'pdf',1)]
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:772]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','8e5bb052f9cc72990540332149422f0','SDN中基于机器学习的网络流量分类方法研究_李兆斌.pdf',0,0)]
+[2021-07-10 19:56:36]--[./src_cgi/upload_cgi.c:800]--Success to exec sql:[update user_file_count set count = 27 where user = 'njzy']
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:887]--Success upload file:DTSNL__SDN数据中心动态流量调度方案_刘振鹏.pdf,filesize:1183324,md5:8682eb53b0aac0344da0a8f386857c6. by [njzy]
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpi5KAPoS3ABIOXO5xK3U006.pdf
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:544]--get_file_url parent!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:516]--get_file_url son!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:531]--url file id: group1/M00/00/00/wKgBgmDpi5KAPoS3ABIOXO5xK3U006.pdf!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:535]--url port: 80!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:538]--url http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpi5KAPoS3ABIOXO5xK3U006.pdf!
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:760]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('8682eb53b0aac0344da0a8f386857c6','group1/M00/00/00/wKgBgmDpi5KAPoS3ABIOXO5xK3U006.pdf','http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpi5KAPoS3ABIOXO5xK3U006.pdf',1183324,'pdf',1)]
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:772]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','8682eb53b0aac0344da0a8f386857c6','DTSNL__SDN数据中心动态流量调度方案_刘振鹏.pdf',0,0)]
+[2021-07-10 19:59:14]--[./src_cgi/upload_cgi.c:800]--Success to exec sql:[update user_file_count set count = 28 where user = 'njzy']
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:882]--Success upload file:08770551.pdf,filesize:178328,md5:547d542b0f4502a118e19372ff74cc4. by [njzy]
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpkRmAL8qZAAK4mDVAs6Q707.pdf
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:535]--url http://0.0.0.0:80/group1/M00/00/00/wKgBgWDpkRmAL8qZAAK4mDVAs6Q707.pdf!
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:755]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('547d542b0f4502a118e19372ff74cc4','group1/M00/00/00/wKgBgWDpkRmAL8qZAAK4mDVAs6Q707.pdf','http://0.0.0.0:80/group1/M00/00/00/wKgBgWDpkRmAL8qZAAK4mDVAs6Q707.pdf',178328,'pdf',1)]
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:767]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','547d542b0f4502a118e19372ff74cc4','08770551.pdf',0,0)]
+[2021-07-10 20:22:49]--[./src_cgi/upload_cgi.c:795]--Success to exec sql:[update user_file_count set count = 29 where user = 'njzy']
+[2021-07-10 20:29:45]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:29:45]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:29:45]--[./src_cgi/upload_cgi.c:887]--Success upload file:1-s2.0-S014036641930129X-main (1).pdf,filesize:895786,md5:43b4f142cb7ab7fef80aa5bf41f5f79. by [njzy]
+[2021-07-10 20:29:45]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 20:29:45]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpkrmANxHcAA2rKnN6J5U536.pdf
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:940]--Success upload file:CVPR.2016.90.pdf,filesize:287724,md5:99e9772dbc00249c19b475d74d4c911. by [njzy]
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:953]--Origin file is exists!
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:741]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','99e9772dbc00249c19b475d74d4c911','CVPR.2016.90.pdf',0,0)]
+[2021-07-10 20:42:24]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[update user_file_count set count = 30 where user = 'njzy']
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:940]--Success upload file:全局路由调度.doc,filesize:96256,md5:d6daf8e4ae1a6a7fa35bc8135323390. by [njzy]
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDplcCAbbIpAAF4AHhFhLg410.doc
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:535]--url http://0.0.0.0:80/group1/M00/00/00/wKgBgWDplcCAbbIpAAF4AHhFhLg410.doc!
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:813]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('d6daf8e4ae1a6a7fa35bc8135323390','group1/M00/00/00/wKgBgWDplcCAbbIpAAF4AHhFhLg410.doc','http://0.0.0.0:80/group1/M00/00/00/wKgBgWDplcCAbbIpAAF4AHhFhLg410.doc',96256,'doc',1)]
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:825]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','d6daf8e4ae1a6a7fa35bc8135323390','全局路由调度.doc',0,0)]
+[2021-07-10 20:42:40]--[./src_cgi/upload_cgi.c:853]--Success to exec sql:[update user_file_count set count = 31 where user = 'njzy']
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:943]--Success upload file:本人申请书.docx,filesize:20659,md5:cce1c4c1275c4e86c4d60b716d34df5. by [njzy]
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:535]--url http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx!
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:816]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('cce1c4c1275c4e86c4d60b716d34df5','group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx','http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx',20659,'docx',1)]
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:828]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','cce1c4c1275c4e86c4d60b716d34df5','本人申请书.docx',0,0)]
+[2021-07-10 20:50:55]--[./src_cgi/upload_cgi.c:856]--Success to exec sql:[update user_file_count set count = 32 where user = 'njzy']
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:943]--Success upload file:校徽.png,filesize:145519,md5:7a36f572f53681f76429e574b3363f3. by [njzy]
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpmRaAQ9QbAAI4b9RqCBs409.png
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:535]--url http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx!
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:816]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('7a36f572f53681f76429e574b3363f3','group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx','http://0.0.0.0:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx',145519,'png',1)]
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:828]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','7a36f572f53681f76429e574b3363f3','校徽.png',0,0)]
+[2021-07-10 20:56:54]--[./src_cgi/upload_cgi.c:856]--Success to exec sql:[update user_file_count set count = 33 where user = 'njzy']
+[2021-07-10 21:04:52]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:04:52]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:04:52]--[./src_cgi/upload_cgi.c:943]--Success upload file:1.pdf,filesize:84099,md5:6fe61ed79d136c0a7dcb1d7973ae3db. by [njzy]
+[2021-07-10 21:06:10]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:06:10]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:06:10]--[./src_cgi/upload_cgi.c:943]--Success upload file:1.pdf,filesize:84099,md5:6fe61ed79d136c0a7dcb1d7973ae3db. by [njzy]
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:943]--Success upload file:发展对象材料汇总清单 (1).pdf,filesize:61703,md5:7c8da8a0a3a1ab5e2e3dca2705e477d. by [njzy]
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDppAKAWpltAADxB1TaOTs034.pdf
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx!
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:816]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('7c8da8a0a3a1ab5e2e3dca2705e477d','group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpl6-AOfXdAABQswckWg871.docx',61703,'pdf',1)]
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:828]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','7c8da8a0a3a1ab5e2e3dca2705e477d','发展对象材料汇总清单 (1).pdf',0,0)]
+[2021-07-10 21:43:30]--[./src_cgi/upload_cgi.c:856]--Success to exec sql:[update user_file_count set count = 34 where user = 'njzy']
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:896]--Success upload file:基于SDN的多路径可靠传输方案.docx,filesize:148788,md5:d54c7184a025678667e9e385654d6de. by [njzy]
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDppVOAH5whAAJFNL_zyyk51.docx
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:549]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDppVOAH5whAAJFNL_zyyk51.docx!
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('d54c7184a025678667e9e385654d6de','group1/M00/00/00/wKgBgWDppVOAH5whAAJFNL_zyyk51.docx','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDppVOAH5whAAJFNL_zyyk51.docx',148788,'docx',1)]
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:781]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','d54c7184a025678667e9e385654d6de','基于SDN的多路径可靠传输方案.docx',0,0)]
+[2021-07-10 21:49:07]--[./src_cgi/upload_cgi.c:809]--Success to exec sql:[update user_file_count set count = 35 where user = 'njzy']
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:896]--Success upload file:SDUDP A Reliable UDP-Based Transmission.pdf,filesize:5843587,md5:ll,c7184a025678667e9e385654d6de. by [njzy]
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpp0eAGlmEAFkqgyKpAHU427.pdf
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:549]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpp0eAGlmEAFkqgyKpAHU427.pdf!
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,c7184a025678667e9e385654d6de','group1/M00/00/00/wKgBgmDpp0eAGlmEAFkqgyKpAHU427.pdf','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpp0eAGlmEAFkqgyKpAHU427.pdf',5843587,'pdf',1)]
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:781]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,c7184a025678667e9e385654d6de','SDUDP A Reliable UDP-Based Transmission.pdf',0,0)]
+[2021-07-10 21:57:27]--[./src_cgi/upload_cgi.c:809]--Success to exec sql:[update user_file_count set count = 36 where user = 'njzy']
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:896]--Success upload file:An improved RUDP for data transmission in embedded real-time.pdf,filesize:631443,md5:590916a570824dd366f0ff2967dab09. by [njzy]
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpp46AUGocAAmik4BY-zE782.pdf
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:549]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpp46AUGocAAmik4BY-zE782.pdf!
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('590916a570824dd366f0ff2967dab09','group1/M00/00/00/wKgBgWDpp46AUGocAAmik4BY-zE782.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpp46AUGocAAmik4BY-zE782.pdf',631443,'pdf',1)]
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:781]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','590916a570824dd366f0ff2967dab09','An improved RUDP for data transmission in embedded real-time.pdf',0,0)]
+[2021-07-10 21:58:38]--[./src_cgi/upload_cgi.c:809]--Success to exec sql:[update user_file_count set count = 37 where user = 'njzy']
+[2021-07-10 21:59:44]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 21:59:44]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 21:59:44]--[./src_cgi/upload_cgi.c:896]--Success upload file:Proposal of Multi–Pathization Method.pdf,filesize:978309,md5:2e97d89c8a6dc4b3471836eeb6efee0. by [njzy]
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpp9GAORdnAA7thUYOp5k603.pdf
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:549]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpp9GAORdnAA7thUYOp5k603.pdf!
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('2e97d89c8a6dc4b3471836eeb6efee0','group1/M00/00/00/wKgBgmDpp9GAORdnAA7thUYOp5k603.pdf','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpp9GAORdnAA7thUYOp5k603.pdf',978309,'pdf',1)]
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:781]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','2e97d89c8a6dc4b3471836eeb6efee0','Proposal of Multi–Pathization Method.pdf',0,0)]
+[2021-07-10 21:59:45]--[./src_cgi/upload_cgi.c:809]--Success to exec sql:[update user_file_count set count = 38 where user = 'njzy']
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:896]--Success upload file:An SDN-Based Transmission Protocol with In-Path.pdf,filesize:983609,md5:5411d43734d613bab3bb643c12e8bdb. by [njzy]
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpp-6AJXGFAA8COfYiPjo100.pdf
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:549]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpp-6AJXGFAA8COfYiPjo100.pdf!
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:769]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('5411d43734d613bab3bb643c12e8bdb','group1/M00/00/00/wKgBgWDpp-6AJXGFAA8COfYiPjo100.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpp-6AJXGFAA8COfYiPjo100.pdf',983609,'pdf',1)]
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:781]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','5411d43734d613bab3bb643c12e8bdb','An SDN-Based Transmission Protocol with In-Path.pdf',0,0)]
+[2021-07-10 22:00:14]--[./src_cgi/upload_cgi.c:809]--Success to exec sql:[update user_file_count set count = 39 where user = 'njzy']
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:819]--Success upload file:An improved RUDP for data transmission in embedded real-time.pdf,filesize:631443,md5:590916a570824dd366f0ff2967dab09. by [njzy]
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:832]--Origin file is exists!
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:620]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','590916a570824dd366f0ff2967dab09','An improved RUDP for data transmission in embedded real-time.pdf',0,0)]
+[2021-07-10 22:04:36]--[./src_cgi/upload_cgi.c:648]--Success to exec sql:[update user_file_count set count = 40 where user = 'njzy']
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:819]--Success upload file:Proposal of Multi–Pathization Method.pdf,filesize:978309,md5:2e97d89c8a6dc4b3471836eeb6efee0. by [njzy]
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:832]--Origin file is exists!
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:620]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','2e97d89c8a6dc4b3471836eeb6efee0','Proposal of Multi–Pathization Method.pdf',0,0)]
+[2021-07-10 22:07:16]--[./src_cgi/upload_cgi.c:648]--Success to exec sql:[update user_file_count set count = 41 where user = 'njzy']
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:819]--Success upload file:openflow-switch-v1.5.1.pdf,filesize:2219919,md5:ll,7d89c8a6dc4b3471836eeb6efee0. by [njzy]
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpqeyAPeE1ACHfj9D-zPg4.1.pdf
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpqeyAPeE1ACHfj9D-zPg4.1.pdf!
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:692]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,7d89c8a6dc4b3471836eeb6efee0','group1/M00/00/00/wKgBgmDpqeyAPeE1ACHfj9D-zPg4.1.pdf','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpqeyAPeE1ACHfj9D-zPg4.1.pdf',2219919,'pdf',1)]
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:704]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,7d89c8a6dc4b3471836eeb6efee0','openflow-switch-v1.5.1.pdf',0,0)]
+[2021-07-10 22:08:44]--[./src_cgi/upload_cgi.c:732]--Success to exec sql:[update user_file_count set count = 42 where user = 'njzy']
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:819]--Success upload file:openflow-spec-v1.4.0.pdf,filesize:1450703,md5:bd7859afb5e6e218e6a6404ee6a3040. by [njzy]
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDprECAdHqLABYiz3EOT309.0.pdf
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDprECAdHqLABYiz3EOT309.0.pdf!
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:692]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('bd7859afb5e6e218e6a6404ee6a3040','group1/M00/00/00/wKgBgWDprECAdHqLABYiz3EOT309.0.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDprECAdHqLABYiz3EOT309.0.pdf',1450703,'pdf',1)]
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:704]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','bd7859afb5e6e218e6a6404ee6a3040','openflow-spec-v1.4.0.pdf',0,0)]
+[2021-07-10 22:18:40]--[./src_cgi/upload_cgi.c:732]--Success to exec sql:[update user_file_count set count = 43 where user = 'njzy']
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:819]--Success upload file:H17061001441_513023199603218016_刘谍_7671.pdf,filesize:185766,md5:4ee075e2882c8fdf13e4c93c45f3aa7. by [njzy]
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDprQKAIq5xAALVpnewJNk461.pdf
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDprQKAIq5xAALVpnewJNk461.pdf!
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:692]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('4ee075e2882c8fdf13e4c93c45f3aa7','group1/M00/00/00/wKgBgmDprQKAIq5xAALVpnewJNk461.pdf','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDprQKAIq5xAALVpnewJNk461.pdf',185766,'pdf',1)]
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:704]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','4ee075e2882c8fdf13e4c93c45f3aa7','H17061001441_513023199603218016_刘谍_7671.pdf',0,0)]
+[2021-07-10 22:21:54]--[./src_cgi/upload_cgi.c:732]--Success to exec sql:[update user_file_count set count = 44 where user = 'njzy']
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:819]--Success upload file:openflow-spec-v1.4.0.pdf,filesize:1450703,md5:bd7859afb5e6e218e6a6404ee6a3040. by [njzy]
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:832]--Origin file is exists!
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:620]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','bd7859afb5e6e218e6a6404ee6a3040','openflow-spec-v1.4.0.pdf',0,0)]
+[2021-07-10 22:25:47]--[./src_cgi/upload_cgi.c:648]--Success to exec sql:[update user_file_count set count = 45 where user = 'njzy']
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:819]--Success upload file:1572362614595.jpeg,filesize:144766,md5:9e6c83d5c5923b55bd34d24ba6540a8. by [njzy]
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDprgaAGEHeAAI1fmLloKs89.jpeg
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDprgaAGEHeAAI1fmLloKs89.jpeg!
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:692]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('9e6c83d5c5923b55bd34d24ba6540a8','group1/M00/00/00/wKgBgWDprgaAGEHeAAI1fmLloKs89.jpeg','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDprgaAGEHeAAI1fmLloKs89.jpeg',144766,'jpeg',1)]
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:704]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','9e6c83d5c5923b55bd34d24ba6540a8','1572362614595.jpeg',0,0)]
+[2021-07-10 22:26:14]--[./src_cgi/upload_cgi.c:732]--Success to exec sql:[update user_file_count set count = 46 where user = 'njzy']
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:148]--Web data Comming ...
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:82]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:819]--Success upload file:劳务雇佣合同书.doc,filesize:40448,md5:2f3c4b7d42a3cd53b541371a141f48b. by [njzy]
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:403]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:426]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpry6ARIZAAACeAOZdmmE199.doc
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:535]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpry6ARIZAAACeAOZdmmE199.doc!
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:692]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('2f3c4b7d42a3cd53b541371a141f48b','group1/M00/00/00/wKgBgmDpry6ARIZAAACeAOZdmmE199.doc','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpry6ARIZAAACeAOZdmmE199.doc',40448,'doc',1)]
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:704]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','2f3c4b7d42a3cd53b541371a141f48b','劳务雇佣合同书.doc',0,0)]
+[2021-07-10 22:31:10]--[./src_cgi/upload_cgi.c:732]--Success to exec sql:[update user_file_count set count = 47 where user = 'njzy']
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:149]--Web data Comming ...
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:83]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:820]--Success upload file:劳务用工合同范本.docx,filesize:17162,md5:26f480868f898a277d277c5fe18c036. by [njzy]
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:404]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:427]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpr_-ABWr_AABDCuypu7I64.docx
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:536]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpr_-ABWr_AABDCuypu7I64.docx!
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:693]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('26f480868f898a277d277c5fe18c036','group1/M00/00/00/wKgBgWDpr_-ABWr_AABDCuypu7I64.docx','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpr_-ABWr_AABDCuypu7I64.docx',17162,'docx',1)]
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:705]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','26f480868f898a277d277c5fe18c036','劳务用工合同范本.docx',0,0)]
+[2021-07-10 22:34:39]--[./src_cgi/upload_cgi.c:733]--Success to exec sql:[update user_file_count set count = 48 where user = 'njzy']
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:149]--Web data Comming ...
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:83]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:820]--Success upload file:短期劳动合同1.doc,filesize:24576,md5:426703b75ed53d8457a73a5e0afc09b. by [njzy]
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:404]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:427]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpsXeAbtVsAABgANoOHwM032.doc
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:536]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpsXeAbtVsAABgANoOHwM032.doc!
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:693]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('426703b75ed53d8457a73a5e0afc09b','group1/M00/00/00/wKgBgmDpsXeAbtVsAABgANoOHwM032.doc','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpsXeAbtVsAABgANoOHwM032.doc',24576,'doc',1)]
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:705]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','426703b75ed53d8457a73a5e0afc09b','短期劳动合同1.doc',0,0)]
+[2021-07-10 22:40:55]--[./src_cgi/upload_cgi.c:733]--Success to exec sql:[update user_file_count set count = 49 where user = 'njzy']
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:149]--Web data Comming ...
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:83]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:820]--Success upload file:劳动合同新版.doc,filesize:27185,md5:0690956848e668461ae6af4533e9f7b. by [njzy]
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:404]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:427]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpsh-AB8xWAABqMeXSidM944.doc
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:536]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpsh-AB8xWAABqMeXSidM944.doc!
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:693]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('0690956848e668461ae6af4533e9f7b','group1/M00/00/00/wKgBgWDpsh-AB8xWAABqMeXSidM944.doc','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpsh-AB8xWAABqMeXSidM944.doc',27185,'doc',1)]
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:705]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','0690956848e668461ae6af4533e9f7b','劳动合同新版.doc',0,0)]
+[2021-07-10 22:43:43]--[./src_cgi/upload_cgi.c:733]--Success to exec sql:[update user_file_count set count = 50 where user = 'njzy']
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:843]--Success upload file:2劳动合同简单版.doc,filesize:19968,md5:f5e8a8cf87354e03fc98d769d8fb802. by [njzy]
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpszCAJOKwAABOAHh44XA943.doc
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpszCAJOKwAABOAHh44XA943.doc!
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('f5e8a8cf87354e03fc98d769d8fb802','group1/M00/00/00/wKgBgmDpszCAJOKwAABOAHh44XA943.doc','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpszCAJOKwAABOAHh44XA943.doc',19968,'doc',1)]
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','f5e8a8cf87354e03fc98d769d8fb802','2劳动合同简单版.doc',0,0)]
+[2021-07-10 22:48:16]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 51 where user = 'njzy']
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:843]--Success upload file:wKgBgmDpC1GAZT8dAAGgOspRecY67.docx,filesize:106554,md5:8ac1be11947a53ad220ebee523c88e0. by [njzy]
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:856]--Origin file is exists!
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:623]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','8ac1be11947a53ad220ebee523c88e0','wKgBgmDpC1GAZT8dAAGgOspRecY67.docx',0,0)]
+[2021-07-10 22:50:31]--[./src_cgi/upload_cgi.c:651]--Success to exec sql:[update user_file_count set count = 52 where user = 'njzy']
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:821]--Success upload file:刘谍.pdf,filesize:198582,md5:da132ad26509a1a5694a5007c0e7575. by [njzy]
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDptAGALjpkAAMHtrKe4Oc981.pdf
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptAGALjpkAAMHtrKe4Oc981.pdf!
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('da132ad26509a1a5694a5007c0e7575','group1/M00/00/00/wKgBgWDptAGALjpkAAMHtrKe4Oc981.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptAGALjpkAAMHtrKe4Oc981.pdf',198582,'pdf',1)]
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','da132ad26509a1a5694a5007c0e7575','刘谍.pdf',0,0)]
+[2021-07-10 22:51:45]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 53 where user = 'njzy']
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:821]--Success upload file:红莲华.mp3,filesize:2870801,md5:ll,32ad26509a1a5694a5007c0e7575. by [njzy]
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDptCuALy86ACvOEU3u_EY322.mp3
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptCuALy86ACvOEU3u_EY322.mp3!
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,32ad26509a1a5694a5007c0e7575','group1/M00/00/00/wKgBgmDptCuALy86ACvOEU3u_EY322.mp3','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptCuALy86ACvOEU3u_EY322.mp3',2870801,'mp3',1)]
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,32ad26509a1a5694a5007c0e7575','红莲华.mp3',0,0)]
+[2021-07-10 22:52:27]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 54 where user = 'njzy']
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:821]--Success upload file:神经网络算法在SDN环境下的流量预测研究_朱凌云.pdf,filesize:1830442,md5:ff5eb5e7fa51b87f0e1574c5ecbd1e8. by [njzy]
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDptHqATGQZABvuKogouRU724.pdf
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptHqATGQZABvuKogouRU724.pdf!
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ff5eb5e7fa51b87f0e1574c5ecbd1e8','group1/M00/00/00/wKgBgWDptHqATGQZABvuKogouRU724.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptHqATGQZABvuKogouRU724.pdf',1830442,'pdf',1)]
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ff5eb5e7fa51b87f0e1574c5ecbd1e8','神经网络算法在SDN环境下的流量预测研究_朱凌云.pdf',0,0)]
+[2021-07-10 22:53:46]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 55 where user = 'njzy']
+[2021-07-10 22:54:22]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:54:22]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:54:22]--[./src_cgi/upload_cgi.c:275]--File:SS_1615889836.txt check failed!
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:821]--Success upload file:模板文章.docx,filesize:869753,md5:128820daaea5d1b9ddfead28ad5527c. by [njzy]
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDptLmAJtzPAA1FeV8PTFc53.docx
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptLmAJtzPAA1FeV8PTFc53.docx!
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('128820daaea5d1b9ddfead28ad5527c','group1/M00/00/00/wKgBgmDptLmAJtzPAA1FeV8PTFc53.docx','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptLmAJtzPAA1FeV8PTFc53.docx',869753,'docx',1)]
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','128820daaea5d1b9ddfead28ad5527c','模板文章.docx',0,0)]
+[2021-07-10 22:54:49]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 56 where user = 'njzy']
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:821]--Success upload file:gfd8fkd.mp4,filesize:776736,md5:3755bb1d2e0fb66fddd4a5b1ef93693. by [njzy]
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDptfeASgd0AAvaINRLzno335.mp4
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptfeASgd0AAvaINRLzno335.mp4!
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('3755bb1d2e0fb66fddd4a5b1ef93693','group1/M00/00/00/wKgBgWDptfeASgd0AAvaINRLzno335.mp4','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptfeASgd0AAvaINRLzno335.mp4',776736,'mp4',1)]
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','3755bb1d2e0fb66fddd4a5b1ef93693','gfd8fkd.mp4',0,0)]
+[2021-07-10 23:00:07]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 57 where user = 'njzy']
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:821]--Success upload file:未命名文件.png,filesize:1132267,md5:5e03866a95b4d9031a835c85ee4ebef. by [njzy]
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDptlWAPz7lABFG6zf1ZKI315.png
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptlWAPz7lABFG6zf1ZKI315.png!
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('5e03866a95b4d9031a835c85ee4ebef','group1/M00/00/00/wKgBgmDptlWAPz7lABFG6zf1ZKI315.png','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDptlWAPz7lABFG6zf1ZKI315.png',1132267,'png',1)]
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','5e03866a95b4d9031a835c85ee4ebef','未命名文件.png',0,0)]
+[2021-07-10 23:01:41]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 58 where user = 'njzy']
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:821]--Success upload file:TNET.2019.2911272.pdf,filesize:55254,md5:af7812c0e99566aa0b92648025c7319. by [njzy]
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDptzGAQ4ZLAADX1tsOdP0667.pdf
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptzGAQ4ZLAADX1tsOdP0667.pdf!
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('af7812c0e99566aa0b92648025c7319','group1/M00/00/00/wKgBgWDptzGAQ4ZLAADX1tsOdP0667.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDptzGAQ4ZLAADX1tsOdP0667.pdf',55254,'pdf',1)]
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','af7812c0e99566aa0b92648025c7319','TNET.2019.2911272.pdf',0,0)]
+[2021-07-10 23:05:21]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 59 where user = 'njzy']
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:821]--Success upload file:25873703 (1).pdf,filesize:2206894,md5:ll,812c0e99566aa0b92648025c7319. by [njzy]
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpt1eAftT3ACGsroQdKEY447.pdf
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpt1eAftT3ACGsroQdKEY447.pdf!
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,812c0e99566aa0b92648025c7319','group1/M00/00/00/wKgBgmDpt1eAftT3ACGsroQdKEY447.pdf','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpt1eAftT3ACGsroQdKEY447.pdf',2206894,'pdf',1)]
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,812c0e99566aa0b92648025c7319','25873703 (1).pdf',0,0)]
+[2021-07-10 23:05:59]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 60 where user = 'njzy']
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:821]--Success upload file:SDN控制平面功能模块化研究.pdf,filesize:407983,md5:55ce96a6ef3b0093fe52ca9f719eccd. by [njzy]
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpt5qAM4-KAAY5r8SskUA003.pdf
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpt5qAM4-KAAY5r8SskUA003.pdf!
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('55ce96a6ef3b0093fe52ca9f719eccd','group1/M00/00/00/wKgBgWDpt5qAM4-KAAY5r8SskUA003.pdf','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpt5qAM4-KAAY5r8SskUA003.pdf',407983,'pdf',1)]
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','55ce96a6ef3b0093fe52ca9f719eccd','SDN控制平面功能模块化研究.pdf',0,0)]
+[2021-07-10 23:07:06]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 61 where user = 'njzy']
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:821]--Success upload file:jquery.cookie.js-master.zip,filesize:2397,md5:ll,e96a6ef3b0093fe52ca9f719eccd. by [njzy]
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgmDpuBqAViAxAAAJXRY3g9o570.zip
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpuBqAViAxAAAJXRY3g9o570.zip!
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('ll,e96a6ef3b0093fe52ca9f719eccd','group1/M00/00/00/wKgBgmDpuBqAViAxAAAJXRY3g9o570.zip','http://192.168.1.130:80/group1/M00/00/00/wKgBgmDpuBqAViAxAAAJXRY3g9o570.zip',2397,'zip',1)]
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','ll,e96a6ef3b0093fe52ca9f719eccd','jquery.cookie.js-master.zip',0,0)]
+[2021-07-10 23:09:14]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 62 where user = 'njzy']
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:151]--Web data Comming ...
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:85]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:821]--Success upload file:jQuery-MD5-master.zip,filesize:6101,md5:0d22716632a5e2db6d37f60d7d8c9f6. by [njzy]
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:406]--upload_to_dstorage Success to upload file to fdfs system!
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:429]--Success to upload file to fdfs system! fdfs id:group1/M00/00/00/wKgBgWDpuC-APXd5AAAX1YAjD7A799.zip
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:538]--url http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpuC-APXd5AAAX1YAjD7A799.zip!
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:695]--Success to exec sql:[insert into file_info (md5, file_id, url, size, type, count) values ('0d22716632a5e2db6d37f60d7d8c9f6','group1/M00/00/00/wKgBgWDpuC-APXd5AAAX1YAjD7A799.zip','http://192.168.1.129:80/group1/M00/00/00/wKgBgWDpuC-APXd5AAAX1YAjD7A799.zip',6101,'zip',1)]
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:707]--Success to exec sql:[insert into user_file_list(user,md5,file_name,shared_status, pv) values ('njzy','0d22716632a5e2db6d37f60d7d8c9f6','jQuery-MD5-master.zip',0,0)]
+[2021-07-10 23:09:35]--[./src_cgi/upload_cgi.c:735]--Success to exec sql:[update user_file_count set count = 63 where user = 'njzy']

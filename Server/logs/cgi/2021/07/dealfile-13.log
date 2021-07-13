@@ -1,0 +1,10 @@
+[2021-07-13 10:51:47]--[./src_cgi/dealfile_cgi.c:50]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-13 10:51:47]--[./src_cgi/dealfile_cgi.c:54]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-13 11:08:59]--[./src_cgi/dealfile_cgi.c:946]--cmd = share
+[2021-07-13 11:08:59]--[./src_cgi/dealfile_cgi.c:978]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 11:08:59]--[./src_cgi/dealfile_cgi.c:981]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:946]--cmd = gen
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:978]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:981]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:673]--gen_extra_code start
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:698]--base64 = dvUqlBc479CADmiUdg7Cuw==
+[2021-07-13 11:09:06]--[./src_cgi/dealfile_cgi.c:713]--random code = jy9DwZlF

@@ -1,0 +1,5 @@
+[2021-07-07 18:16:40]--[./src_cgi/register_cgi.c:189]--len = 0, No data from standrad input
+[2021-07-07 18:16:45]--[./src_cgi/register_cgi.c:202]--buf = {"username":"liudie","nickname":"liudie","password":"fbbf9e5047fde9af86895849b3f0800a","phone":"13342331708","email":"625746042@qq.com"}
+[2021-07-07 18:16:45]--[./src_cgi/register_cgi.c:214]--Register:username = liudie,nickname = liudie,password = fbbf9e5047fde9af86895849b3f0800a,phone = 13342331708,email = 625746042@qq.com
+[2021-07-07 18:16:45]--[./src_cgi/register_cgi.c:104]--mysql_user = root, mysql_pwd = root, mysql_db = cloud_disk
+[2021-07-07 18:16:45]--[./src_cgi/register_cgi.c:137]--mysql_query insert success: user[liudie]

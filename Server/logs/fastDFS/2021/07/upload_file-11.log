@@ -1,0 +1,15 @@
+[2021-07-11 10:36:55]--[./src_cgi/upload_cgi.c:348]--Success upload to fdfs system, fileID:[group1/M00/00/00/wKgBgWDqWUeAHSuJAABf_AK7G1Q04.docx]
+[2021-07-11 10:36:55]--[./src_cgi/upload_cgi.c:452]--conf:/etc/fdfs/client.conf  fileid:group1/M00/00/00/wKgBgWDqWUeAHSuJAABf_AK7G1Q04.docx
+[2021-07-11 10:36:55]--[./src_cgi/upload_cgi.c:489]--File status:normal, File Storage in192.168.1.129 192.168.1.129
+[2021-07-11 10:37:34]--[./src_cgi/upload_cgi.c:348]--Success upload to fdfs system, fileID:[group1/M00/00/00/wKgBgmDqWW6AWRLmAB8OUJccMgM673.pdf]
+[2021-07-11 10:37:34]--[./src_cgi/upload_cgi.c:452]--conf:/etc/fdfs/client.conf  fileid:group1/M00/00/00/wKgBgmDqWW6AWRLmAB8OUJccMgM673.pdf
+[2021-07-11 10:37:34]--[./src_cgi/upload_cgi.c:489]--File status:normal, File Storage in192.168.1.130 192.168.1.130
+[2021-07-11 10:39:19]--[./src_cgi/upload_cgi.c:348]--Success upload to fdfs system, fileID:[group1/M00/00/00/wKgBgWDqWdeAUoGEAAAHIRPIs_w378.png]
+[2021-07-11 10:39:19]--[./src_cgi/upload_cgi.c:452]--conf:/etc/fdfs/client.conf  fileid:group1/M00/00/00/wKgBgWDqWdeAUoGEAAAHIRPIs_w378.png
+[2021-07-11 10:39:19]--[./src_cgi/upload_cgi.c:489]--File status:normal, File Storage in192.168.1.129 192.168.1.129
+[2021-07-11 17:31:18]--[./src_cgi/upload_cgi.c:348]--Success upload to fdfs system, fileID:[group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-11 17:31:18]--[./src_cgi/upload_cgi.c:452]--conf:/etc/fdfs/client.conf  fileid:group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf
+[2021-07-11 17:31:18]--[./src_cgi/upload_cgi.c:489]--File status:normal, File Storage in192.168.1.130 192.168.1.130
+[2021-07-11 18:47:26]--[./src_cgi/upload_cgi.c:348]--Success upload to fdfs system, fileID:[group1/M00/00/00/wKgBgWDqzD6AEXfOAATmCYwZbW819.docx]
+[2021-07-11 18:47:26]--[./src_cgi/upload_cgi.c:452]--conf:/etc/fdfs/client.conf  fileid:group1/M00/00/00/wKgBgWDqzD6AEXfOAATmCYwZbW819.docx
+[2021-07-11 18:47:26]--[./src_cgi/upload_cgi.c:489]--File status:normal, File Storage in192.168.1.129 192.168.1.129

@@ -1,0 +1,43 @@
+# uwsgi_cloud_disk.ini file
+[uwsgi]
+
+# Django-related settings
+# the base directory (full path)
+# 指定运行目录，其实就是项目的根目录
+chdir = /home/njzy/Django/CloudDisk
+
+# Django's wsgi file
+# 导入django项目的wsgi模块
+module = CloudDisk.wsgi:application
+
+# 载入wsgi-file
+wsgi-file = /home/njzy/Django/CloudDisk/wsgi.py
+
+# 补充，uwsgi启动时的用户和用户组,注意要按你自己的实际权限进行配置
+# 我这边是因为项目属主是njzy，并且把nginx工作进程属组user修改为njzy
+uid = njzy
+gid = njzy
+
+# process-related settings
+# 开启master主进程
+master = true 
+
+# maximum number of worker processes
+# 开启多少个进程数，workers项也等同processes
+# threads项则是设置运行线程，测试倒不用设置上线程
+processes = 4
+
+# the socket (use the full path to be safe)
+# 设置使用的socket端口或socket地址
+# socket = 0.0.0.0:8000
+# 上面的socket建议配置成一个clouddisk.sock文件后使用nginx来连接uWSGI运行,不然容易报socket的请求头错误和权限错误等。
+socket = /home/njzy/Django/CloudDisk/clouddisk.sock
+
+# ... with appropriate permissions - may be needed
+# 配置生成的sock文件的权限
+chmod-socket = 664 
+
+# clear environment on exit
+＃ 退出时清空环境，其实就是将自动生成的luffy.sock和相关pid文件给干掉。
+vacuum = true
+

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)./index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <!-- Title -->
+    <title>Cloud Disk</title>
+
+    <!-- Favicon -->
+    <link rel="icon" href="/static/img/core-img/favicon.ico">
+
+    <!-- Core Stylesheet -->
+    <link href="/static/css/style.css" rel="stylesheet">
+
+    <!-- Responsive CSS -->
+    <link href="/static/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Preloader Start -->
+    <!-- ***** Header Area Start ***** -->
+    <header class="header_area animated">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <!-- Menu Area Start -->
+                <div class="col-12 col-lg-10">
+                    <div class="menu_area">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Logo -->
+                            <a class="navbar-brand" href="./index.html#">Cda.</a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                            <!-- Menu Area -->
+                            <div class="collapse navbar-collapse" id="ca-navbar">
+                                <ul class="navbar-nav ml-auto" id="nav">
+                                    <li class="nav-item active"><a class="nav-link" href="./index.html">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="./myfile.html">MyFile</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="./sharefile.html">ShareFile</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="./uploadfile.html">UploadFile</a></li>
+                                </ul>
+                                <div class="sing-up-button d-lg-none">
+                                    {% if user != "null" %}
+                                        <a href="javascript:void(0);" onclick="logout()">{{ user }} | LogOut</a>
+                                    {% else %}
+                                        <a href="./login.html">Sign Up Free</a>
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+                <!-- Signup btn -->
+                <div class="col-12 col-lg-2">
+                    <div class="sing-up-button d-none d-lg-block">
+                        {% if user != "null" %}
+                            <a href="javascript:void(0);" onclick="logout()">{{ user }} | LogOut</a>
+                        {% else %}
+                            <a href="./login.html">Sign Up Free</a>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- ***** Header Area End ***** -->
+
+    <!-- ***** Wellcome Area Start ***** -->
+    <section class="wellcome_area clearfix" id="home">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12 col-md">
+                    <div class="wellcome-heading">
+                        <h2>Cloud disk app</h2>
+                        <h3>C</h3>
+                        <p>Everything You Need. To Start Downloading Online Beautifully</p>
+                    </div>
+                    <div class="get-start-area">
+                        <!-- Form Start -->
+                        <form action="./index.html#" method="post" class="form-inline">
+                            <input type="text" class="form-control email" placeholder="@extrated code@">
+                            <input type="submit" class="submit" value="Get Started">
+                        </form>
+                        <!-- Form End -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Welcome thumb -->
+        <div class="welcome-thumb wow fadeInDown" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInDown;">
+            <img src="/static/img/bg-img/cloud.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Wellcome Area End ***** -->
+
+    <!-- ***** Footer Area Start ***** -->
+    <footer class="footer-social-icon text-center section_padding_70 clearfix" style="z-index: -101; position: fixed; bottom: 0px; width: 1519px;">
+        <!-- footer logo -->
+        <div class="footer-text">
+            <h2>Cda.</h2>
+        </div>
+        <!-- social icon-->
+        <div class="footer-social-icon">
+            <a href="./index.html#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="./index.html#"><i class="active fa fa-github" aria-hidden="true"></i></a>
+            <a href="./index.html#"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+            <a href="./index.html#"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
+        </div>
+        <div class="footer-menu">
+            <nav>
+                <ul>
+                    <li><a href="./index.html#">About</a></li>
+                    <li><a href="./index.html#">Terms &amp; Conditions</a></li>
+                    <li><a href="./index.html#">Privacy Policy</a></li>
+                    <li><a href="./index.html#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- Foooter Text-->
+        <div class="copyright-text">
+            <!-- ***** Removing this text is now allowed! This template is licensed under CC BY 3.0 ***** -->
+            <p>Copyright ©2021 Cda. Designed by <a href="https://www.cnblogs.com/ssyfj/" target="_blank">Ssyfj</a></p>
+        </div>
+    </footer>
+    <!-- ***** Footer Area Start ***** -->
+
+    <!-- Jquery-2.2.4 JS -->
+    <script src="/static/js/jquery-2.2.4.min.js"></script>
+    <!-- jquery.cookie.min JS -->
+    <script src="/static/js/jquery.cookie.min.js"></script>
+    <!-- Popper js -->
+    <script src="/static/js/popper.min.js"></script>
+    <!-- Bootstrap-4 Beta JS -->
+    <script src="/static/js/bootstrap.min.js"></script>
+    <!-- jquery.cookie.min JS -->
+    <script src="/static/js/jquery.cookie.min.js"></script>
+    <!-- Common js -->
+    <script src="/static/js/common.js"></script>
+    <!-- All Plugins JS -->
+    <script src="/static/js/plugins.js"></script>
+    <!-- Slick Slider Js-->
+    <script src="/static/js/slick.min.js"></script>
+    <!-- Footer Reveal JS -->
+    <script src="/static/js/footer-reveal.min.js"></script>
+    <!-- Active JS -->
+    <script src="/static/js/active.js"></script><a id="scrollUp" href="./index.html#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
+
+
+
+</body></html>
