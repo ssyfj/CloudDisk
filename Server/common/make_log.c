@@ -5,9 +5,9 @@
 #include <unistd.h>
 #include <time.h>
 #include <sys/stat.h>
+#include <pthread.h>
 
 #include "make_log.h"
-#include <pthread.h>
 
 pthread_mutex_t ca_log_lock = PTHREAD_MUTEX_INITIALIZER;    //定义全局锁
 

@@ -273,7 +273,7 @@ int share_file(char *user, char *md5, char *filename)
         goto END;
     }
 
-    //===5、redis集合中增加一个元素(redis操作)
+    //===5、redis集合中增加一个元素(redis操作)，这里默认设置了score为0，标识下载量为0！！！===pv字段值为0
     rop_zset_add(redis_conn, FILE_PUBLIC_ZSET, 0, fileid);
 
     //===6、redis对应的hash也需要变化 (redis操作)

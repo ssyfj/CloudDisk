@@ -4879,3 +4879,52 @@ njzy 56cdab94a74d90ce0af8980e7dedc4a6
 redis token: b'56cdab94a74d90ce0af8980e7dedc4a6' {'user': 'njzy'}
 80 0
 81 0
+Not Found: /fdfs/dealsharefile.jsp
+81 0
+81 0
+81 0
+81 0
+81 0
+81 0
+81 0
+b'{"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6"}'
+njzy 56cdab94a74d90ce0af8980e7dedc4a6
+redis token: None {'user': 'null'}
+cajs 37df220ee3571c7b98aff7fd36e20ff2
+redis token: b'37df220ee3571c7b98aff7fd36e20ff2' {'user': 'null'}
+1 0
+2 0
+2 0
+4 0
+7 0
+8 0
+cajs 37df220ee3571c7b98aff7fd36e20ff2
+redis token: b'37df220ee3571c7b98aff7fd36e20ff2' {'user': 'cajs'}
+8 0
+8 0
+cajs 37df220ee3571c7b98aff7fd36e20ff2
+redis token: b'37df220ee3571c7b98aff7fd36e20ff2' {'user': 'cajs'}
+8 0
+b'{"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2"}'
+cajs 37df220ee3571c7b98aff7fd36e20ff2
+redis token: None {'user': 'null'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'null'}
+81 0
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+81 0
+njzy 5803c22bb51d401ca35f45a6f7098f77
+redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}

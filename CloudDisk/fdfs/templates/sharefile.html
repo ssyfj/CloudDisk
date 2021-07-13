@@ -121,7 +121,7 @@
                 {% for file in posts %}
                 <div class="col-12 col-md-6 col-lg-2 filemember" data-member-id="1">
                     <div class="single-team-member" id='{{ file.id }}'>
-                        <div class="member-image">
+                        <div class="member-image" id='{{ file.md5 }}'>
                             <div class="single-icon">
                                 <i class="ti-file" aria-hidden="true"></i>
                                 <p class="p-front">{{file.file_name}}</p>
@@ -194,7 +194,9 @@
     <script src="/static/js/footer-reveal.min.js"></script>
     <!-- Active JS -->
     <script src="/static/js/active.js"></script><a id="scrollUp" href="./index.html#top" style="display: none; position: fixed; z-index: 2147483647;"><i class="fa fa-angle-up"></i></a>
-
-
+    <!-- BootstrapMenu JS -->
+    <script src="/static/js/BootstrapMenu.js"></script>
+    <!-- ShareFile deal JS -->
+    <script src="/static/js/sharefile.js"></script>
 
 </body></html>

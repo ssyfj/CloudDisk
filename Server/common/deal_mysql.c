@@ -84,12 +84,6 @@ int process_result_one(MYSQL *conn,char *sql_cmd,char *buf)
     int ret = 0;
     MYSQL_RES *res_set = NULL;          //结果集指针
 
-    if(buf == NULL)                     //数据没有办法返回给buf
-    {
-        ret = 2;
-        goto failed;
-    }
-
     if(mysql_query(conn,sql_cmd) != 0)  //进行数据查询
     {
         print_error(conn,"mysql_query error!\n");
@@ -113,6 +107,11 @@ int process_result_one(MYSQL *conn,char *sql_cmd,char *buf)
     if(line == 0)
     {
         ret = 1;                        //没有查询到数据
+        goto failed;
+    }
+    else if(line > 0 && buf == NULL)    //如果buf为NULL，无需保存结果集，只做判断有没有此记录
+    {
+        ret = 2;
         goto failed;
     }
 

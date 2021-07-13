@@ -1,0 +1,61 @@
+[2021-07-13 16:01:50]--[./src_cgi/dealsharefile_cgi.c:46]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-13 16:01:50]--[./src_cgi/dealsharefile_cgi.c:50]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-13 16:03:11]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:03:11]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","filename":"unnamed.jpg"}
+[2021-07-13 16:03:11]--[./src_cgi/dealsharefile_cgi.c:105]--cJSON_GetObjectItem err
+[2021-07-13 16:03:11]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = , file_name = 
+[2021-07-13 16:03:11]--[./src_cgi/dealsharefile_cgi.c:330]--njzy[filename:, md5:] exists
+[2021-07-13 16:03:19]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:03:19]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","filename":"unnamed.jpg"}
+[2021-07-13 16:03:19]--[./src_cgi/dealsharefile_cgi.c:105]--cJSON_GetObjectItem err
+[2021-07-13 16:03:19]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = , file_name = 
+[2021-07-13 16:03:19]--[./src_cgi/dealsharefile_cgi.c:252]--Failed to operate rop_zset_zrem
+[2021-07-13 16:12:09]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:12:09]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","filename":"OZ`([C369}G9)MO[)$}2YB2.png"}
+[2021-07-13 16:12:09]--[./src_cgi/dealsharefile_cgi.c:105]--cJSON_GetObjectItem err
+[2021-07-13 16:12:09]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = , file_name = 
+[2021-07-13 16:12:09]--[./src_cgi/dealsharefile_cgi.c:252]--Failed to operate rop_zset_zrem
+[2021-07-13 16:12:19]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:12:19]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","filename":"TNET.2019.2911272.pdf"}
+[2021-07-13 16:12:19]--[./src_cgi/dealsharefile_cgi.c:105]--cJSON_GetObjectItem err
+[2021-07-13 16:12:19]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = , file_name = 
+[2021-07-13 16:12:19]--[./src_cgi/dealsharefile_cgi.c:252]--Failed to operate rop_zset_zrem
+[2021-07-13 16:12:25]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:12:25]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","filename":"论文进度.docx"}
+[2021-07-13 16:12:25]--[./src_cgi/dealsharefile_cgi.c:105]--cJSON_GetObjectItem err
+[2021-07-13 16:12:25]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = , file_name = 
+[2021-07-13 16:12:25]--[./src_cgi/dealsharefile_cgi.c:252]--Failed to operate rop_zset_zrem
+[2021-07-13 16:16:10]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:16:10]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"56cdab94a74d90ce0af8980e7dedc4a6","md5":"af7812c0e99566aa0b92648025c7319","filename":"TNET.2019.2911272.pdf"}
+[2021-07-13 16:16:10]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 56cdab94a74d90ce0af8980e7dedc4a6, md5 = af7812c0e99566aa0b92648025c7319, file_name = TNET.2019.2911272.pdf
+[2021-07-13 16:16:43]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:16:43]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"0d22716632a5e2db6d37f60d7d8c9f6","filename":"jQuery-MD5-master.zip"}
+[2021-07-13 16:16:43]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 0d22716632a5e2db6d37f60d7d8c9f6, file_name = jQuery-MD5-master.zip
+[2021-07-13 16:16:49]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:16:49]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 16:16:49]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 16:16:49]--[./src_cgi/dealsharefile_cgi.c:330]--cajs[filename:unnamed.jpg, md5:76c571532d388d4c03c980cf7c66be8] exists
+[2021-07-13 16:16:57]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:16:57]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 16:16:57]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 16:16:57]--[./src_cgi/dealsharefile_cgi.c:330]--cajs[filename:unnamed.jpg, md5:76c571532d388d4c03c980cf7c66be8] exists
+[2021-07-13 16:21:14]--[./src_cgi/dealsharefile_cgi.c:46]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-13 16:21:14]--[./src_cgi/dealsharefile_cgi.c:50]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-13 16:21:21]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:21:21]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 16:21:21]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 16:21:28]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:21:28]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"0d22716632a5e2db6d37f60d7d8c9f6","filename":"jQuery-MD5-master.zip"}
+[2021-07-13 16:21:28]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 0d22716632a5e2db6d37f60d7d8c9f6, file_name = jQuery-MD5-master.zip
+[2021-07-13 16:21:34]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:21:34]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-13 16:21:34]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 76c571532d388d4c03c980cf7c66be8, file_name = unnamed.jpg
+[2021-07-13 16:21:34]--[./src_cgi/dealsharefile_cgi.c:330]--cajs[filename:unnamed.jpg, md5:76c571532d388d4c03c980cf7c66be8] exists
+[2021-07-13 16:21:42]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-13 16:21:42]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"ll,812c0e99566aa0b92648025c7319","filename":"25873703 (1).pdf"}
+[2021-07-13 16:21:42]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = ll,812c0e99566aa0b92648025c7319, file_name = 25873703 (1).pdf
+[2021-07-13 16:21:42]--[./src_cgi/dealsharefile_cgi.c:191]--Failed to exec sql:[select id from share_file_list where user = 'cajs' and md5 = 'll,812c0e99566aa0b92648025c7319' and file_name = '25873703 (1).pdf'] or the file[25873703 (1).pdf] is not shared by user[cajs]
+[2021-07-13 16:22:17]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:22:17]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"ll,e96a6ef3b0093fe52ca9f719eccd","filename":"jquery.cookie.js-master.zip"}
+[2021-07-13 16:22:17]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = ll,e96a6ef3b0093fe52ca9f719eccd, file_name = jquery.cookie.js-master.zip
+[2021-07-13 16:22:21]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-13 16:22:21]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"37df220ee3571c7b98aff7fd36e20ff2","md5":"99e9772dbc00249c19b475d74d4c911","filename":"CVPR.2016.90.pdf"}
+[2021-07-13 16:22:21]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 37df220ee3571c7b98aff7fd36e20ff2, md5 = 99e9772dbc00249c19b475d74d4c911, file_name = CVPR.2016.90.pdf
