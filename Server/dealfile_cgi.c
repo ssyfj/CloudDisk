@@ -273,7 +273,7 @@ int share_file(char *user, char *md5, char *filename)
         goto END;
     }
 
-    //===5、redis集合中增加一个元素(redis操作)，这里默认设置了score为0，标识下载量为0！！！===pv字段值为0
+    //===5、redis集合中增加一个元素(redis操作)
     rop_zset_add(redis_conn, FILE_PUBLIC_ZSET, 0, fileid);
 
     //===6、redis对应的hash也需要变化 (redis操作)
@@ -708,7 +708,7 @@ int gen_extra_code(char *user,char *code)
     for(i=0;i<16;i+=2)
     {
         sum = decrypt[i]*256 + decrypt[i+1];
-        code[i/2] = randCode[sum%62];
+        code[i%2] = randCode[sum%62];
     }
     LOG(DEALFILE_LOG_MODULE,DEALFILE_LOG_PROC,"random code = %s\n",code);
 
@@ -732,11 +732,7 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
     char tmp[512] = {0};
     char code[30] = {0};
     char fileurl[1024] = {0};
-    char filesize[30] = {0};
-    char codeVal[1024] = {0};
     int ret2 = 0;
-    MYSQL_RES *res_set = NULL;                                  //结果集指针
-
 
     //先获取时间信息---后面都会用到！！！
     time_t now,expire_time;
@@ -782,36 +778,13 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
         goto END;
     }
 
-    //获取文件的url信息和大小信息
-    sprintf(sql_cmd, "select size,url from file_info where md5 = '%s'", md5);
+    //获取文件的url信息
+    sprintf(sql_cmd, "select url from file_info where md5 = '%s'", md5);
 
-    if(mysql_query(conn,sql_cmd) != 0)  //进行数据查询
+    ret2 = process_result_one(conn, sql_cmd, fileurl);           //执行sql语句, 最后一个参数为NULL
+    if(ret2 == 2)                                                //说明有结果，我们需要更新
     {
-        print_error(conn,"mysql_query error!\n");
-        ret = -1;
-        goto failed;
-    }
-
-    res_set = mysql_store_result(conn); //生成结果集
-    if(res_set == NULL)
-    {
-        print_error(conn,"mysql_store_result error!\n");
-        ret = -1;
-        goto failed;
-    }
-
-    ulong line = mysql_num_rows(res_set);
-    if(line == 0)
-    {
-        ret = -1;                        //没有查询到数据
-        goto failed;
-    }
-
-    //可能存在多个数据，我们只需要去获取一行数据
-    if((row = mysql_fetch_row(res_set)) != NULL)
-    {
-        strcpy(fileurl,row[0]);
-        strcpy(filesize,row[1]);
+        LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "mysql select url:[%s] for file:[%s]\n",fileurl,filename);
     }
 
     //3.将数据插入redis中去
@@ -832,16 +805,15 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
         LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "redis: delete old extra code [%s]\n",code);
     }
 
-    sprintf(codeVal,"%s_%s",filesize,fileurl);                              //将size和url一块作为值保存
     //开始设置新的提取码信息
     rop_zset_add(redis_conn, CODE_PUBLIC_ZSET, expire_time, extra_code);    //注意：以过期时间作为score，进行过期检查
-    //设置提取码:size+文件url
-    rop_hash_set(redis_conn, CODE_URL_HASH, extra_code, codeVal);           //由后台程序进行检查
+    //设置提取码和文件url
+    rop_hash_set(redis_conn, CODE_URL_HASH, extra_code, fileurl);           //由后台程序进行检查
 
 END:
     if(ret == 0)
     {
-        return_file_status("010",extra_code);
+        return_file_status("010","success");
     }
     else if(ret == -1)
     {
@@ -1029,14 +1001,18 @@ int main()
             }
             else if(strcmp(cmd,"gen") == 0)         //生成提取码
             {
+                LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "deal file start\n");
                 char extra_code[30] = {0};
                 ret = gen_extra_code(user,extra_code);
+                LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "deal file mid\n");
                 if(ret != 0)                        //提取码生成出错
                 {
                     return_file_status("111","failed"); //token验证失败错误码
                     continue;
                 }
+                LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "deal file mid 2\n");
                 set_extra_code(user, md5, filename,extra_code);
+                LOG(DEALFILE_LOG_MODULE, DEALFILE_LOG_PROC, "deal file end\n");
             }
         }
     }

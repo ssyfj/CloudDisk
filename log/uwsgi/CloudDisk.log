@@ -4928,3 +4928,50 @@ redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
 81 0
 njzy 5803c22bb51d401ca35f45a6f7098f77
 redis token: b'5803c22bb51d401ca35f45a6f7098f77' {'user': 'njzy'}
+...brutally killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 4 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /home/njzy/Django/CloudDisk/fdfs
+closing all non-uwsgi socket fds > 2 (max_fd = 1024)...
+found fd 6 mapped to socket 0 (/home/njzy/Django/CloudDisk/clouddisk.sock)
+running /home/njzy/.local/bin/uwsgi
+[uWSGI] getting INI configuration from /home/njzy/Django/conf/uwsgi_cloud_disk.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 13 14:37:04 2021] ***
+compiled with version: 5.4.0 20160609 on 05 July 2021 11:22:54
+os: Linux-4.10.14 #1 SMP Thu Sep 10 14:20:13 CST 2020
+nodename: njzy-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/njzy/Django/CloudDisk/fdfs
+detected binary path: /home/njzy/.local/bin/uwsgi
+chdir() to /home/njzy/Django/CloudDisk
+your processes number limit is 6661
+limiting address space of processes...
+your process address space limit is 1073741824 bytes (1024 MB)
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited UNIX address /home/njzy/Django/CloudDisk/clouddisk.sock fd 6
+Python version: 3.8.1 (default, Jul  5 2021, 19:20:56)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xbe7730
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0xbe7730 pid: 2950 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 2950)
+spawned uWSGI worker 1 (pid: 4594, cores: 1)
+spawned uWSGI worker 2 (pid: 4595, cores: 1)
+spawned uWSGI worker 3 (pid: 4596, cores: 1)
+spawned uWSGI worker 4 (pid: 4597, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 18 ***

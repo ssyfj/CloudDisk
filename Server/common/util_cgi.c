@@ -85,6 +85,37 @@ char* memstr(char *full_data,int full_data_len,char *substr)
     return NULL;
 }
 
+
+/*
+字符串按照字符进行分割，分割次数为cnt，分割结果保存在value中
+成功返回0，失败返回-1,不足cnt返回1
+*/
+int strplit(char *full_data,char ch,VALUES value,int cnt)
+{
+    char *index_s = full_data;
+    char *index_e = NULL;
+    int count = 0;
+
+    if(full_data == NULL || value == NULL || cnt <= 0)
+    {
+        return -1;
+    }
+
+    while(index_s != '\0'){
+        index_e = strchr(index_s,ch);                       //开始查找索引
+        if(index_e == NULL || count == cnt)                 //到达结尾
+        {
+            strncpy(value[count],index_s,full_data+strlen(full_data)-index_s);    //拷贝赋值
+            break;
+        }
+        strncpy(value[count++],index_s,index_e-index_s);    //拷贝赋值
+        index_s = index_e + 1;
+    }
+
+    return count == cnt ? 0 : 1;
+}
+
+
 /*
 解析url query 类似abc=123&bbb=456字符串,传入一个key(abc),得到相应的value(123)
 成功返回0，失败返回-1

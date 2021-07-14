@@ -70,8 +70,8 @@ void return_file_status(char *status_num,char *message)
 //1.解析的json包, 登陆token，这里是针对count请求处理！！！
 /*json数据如下
 {
+    "user":xxxx
     "token": "9e894efc0b2a898a82765d0a7f2c94cb",
-    user:xxxx
 }
 */
 int get_count_json_info(char *buf, char *user, char *token)

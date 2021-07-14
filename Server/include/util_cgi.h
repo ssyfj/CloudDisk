@@ -22,6 +22,8 @@
 #define UTIL_LOG_MODULE		"cgi"
 #define UTIL_LOG_PROC		"util"
 
+typedef char (*VALUES)[1024];    /* redis 表存放批量value字符串数组类型 */
+
 /*
 处理字符串，截取两边的空白字符
 成功返回0，失败返回-1
@@ -34,6 +36,12 @@ full_data为主串，substr为子串
 成功则返回匹配后的字符串首位置，失败返回NULL
 */
 char* memstr(char *full_data,int full_data_len,char *substr);
+
+/*
+字符串按照字符进行分割，分割次数为cnt，分割结果保存在value中
+成功返回0，失败返回-1,不足cnt返回1
+*/
+int strplit(char *full_data,char ch,VALUES val,int cnt);
 
 /*
 解析url query 类似abc=123&bbb=456字符串,传入一个key(abc),得到相应的value(123)
