@@ -1,0 +1,207 @@
+[2021-07-14 18:14:28]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 18:14:28]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 18:32:30]--[./src_cgi/download_cgi.c:645]--cmd = 
+[2021-07-14 18:32:30]--[./src_cgi/download_cgi.c:681]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 18:32:44]--[./src_cgi/download_cgi.c:645]--cmd = 
+[2021-07-14 18:32:44]--[./src_cgi/download_cgi.c:681]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 18:35:23]--[./src_cgi/download_cgi.c:645]--cmd = 
+[2021-07-14 18:35:23]--[./src_cgi/download_cgi.c:681]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"76c571532d388d4c03c980cf7c66be8","filename":"unnamed.jpg"}
+[2021-07-14 18:48:12]--[./src_cgi/download_cgi.c:645]--cmd = 
+[2021-07-14 18:48:12]--[./src_cgi/download_cgi.c:681]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"SDN-UDP.pdf"}
+[2021-07-14 18:48:28]--[./src_cgi/download_cgi.c:645]--cmd = 
+[2021-07-14 18:48:28]--[./src_cgi/download_cgi.c:665]--len = 0, No data from standard input
+[2021-07-14 19:01:27]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 19:01:27]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 19:01:57]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:01:57]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"01论文导读.doc"}
+[2021-07-14 19:02:22]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:02:22]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"01论文导读.doc"}
+[2021-07-14 19:03:24]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:03:24]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"7a36f572f53681f76429e574b3363f3","filename":"校徽.png"}
+[2021-07-14 19:04:02]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 19:04:02]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 19:04:11]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:04:11]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"7a36f572f53681f76429e574b3363f3","filename":"校徽.png"}
+[2021-07-14 19:04:42]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:04:42]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,23eba50590b5356f76d142882520","filename":"Industrial Internet时延.pdf"}
+[2021-07-14 19:10:07]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:10:07]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:11:58]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:11:58]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:12:28]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:12:28]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:13:54]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:13:54]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:14:01]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:14:01]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"6c281b66984eb337a5bfb6a01dd5428","filename":"little forest (4).jpg"}
+[2021-07-14 19:14:20]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:14:20]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ea2d012c3d3e5e5658c5853b0cccf7c","filename":"刘谍硕士学位论文开题登记表.doc"}
+[2021-07-14 19:14:26]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:14:26]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 19:14:51]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:14:51]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"8ac1be11947a53ad220ebee523c88e0","filename":"论文进度.docx"}
+[2021-07-14 19:15:09]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:15:09]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"07903946.pdf"}
+[2021-07-14 19:15:15]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:15:15]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"1be0a309610ef512ceafee2ee29285e","filename":"OZ`([C369}G9)MO[)$}2YB2.png"}
+[2021-07-14 19:15:21]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:15:21]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"cf838b4fea597345b64020e0a7af4a8","filename":"计硕1909_1971635_刘谍.docx"}
+[2021-07-14 19:19:59]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:19:59]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"0d22716632a5e2db6d37f60d7d8c9f6","filename":"jQuery-MD5-master.zip"}
+[2021-07-14 19:20:32]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:20:32]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a46d16b2aee7d0467cc839cd34f0bd0","filename":"TNET.2019.2918782.pdf"}
+[2021-07-14 19:20:46]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:20:46]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"7c8da8a0a3a1ab5e2e3dca2705e477d","filename":"发展对象材料汇总清单 (1).pdf"}
+[2021-07-14 19:21:02]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:02]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"d6daf8e4ae1a6a7fa35bc8135323390","filename":"全局路由调度.doc"}
+[2021-07-14 19:21:07]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:07]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"5e03866a95b4d9031a835c85ee4ebef","filename":"未命名文件.png"}
+[2021-07-14 19:21:12]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:12]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"3755bb1d2e0fb66fddd4a5b1ef93693","filename":"gfd8fkd.mp4"}
+[2021-07-14 19:21:19]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:19]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"精确时间同步.pdf"}
+[2021-07-14 19:21:26]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:26]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"7c8da8a0a3a1ab5e2e3dca2705e477d","filename":"发展对象材料汇总清单 (1).pdf"}
+[2021-07-14 19:21:44]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:21:44]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"精确时间同步.pdf"}
+[2021-07-14 19:22:28]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:22:28]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 19:22:38]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:22:38]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 19:23:03]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:23:03]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:30:00]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:30:00]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 19:30:11]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:30:11]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 19:30:31]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:30:31]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"1be0a309610ef512ceafee2ee29285e","filename":"OZ`([C369}G9)MO[)$}2YB2.png"}
+[2021-07-14 19:30:44]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:30:44]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ea2d012c3d3e5e5658c5853b0cccf7c","filename":"刘谍硕士学位论文开题登记表.doc"}
+[2021-07-14 19:31:15]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:31:15]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"d6daf8e4ae1a6a7fa35bc8135323390","filename":"全局路由调度.doc"}
+[2021-07-14 19:31:27]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:31:27]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a46d16b2aee7d0467cc839cd34f0bd0","filename":"TNET.2019.2918782.pdf"}
+[2021-07-14 19:31:45]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:31:45]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"4e04ad917b40145184349857ac93df1","filename":"发展党员票决制文件附件.pdf"}
+[2021-07-14 19:32:14]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:32:14]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,","filename":"Industrial Internet时延.pdf"}
+[2021-07-14 19:32:29]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:32:29]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,23eba50590b5356f76d142882520","filename":"Industrial Internet时延.pdf"}
+[2021-07-14 19:32:42]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:32:42]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"0d22716632a5e2db6d37f60d7d8c9f6","filename":"jQuery-MD5-master.zip"}
+[2021-07-14 19:32:52]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:32:52]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 19:33:15]--[./src_cgi/download_cgi.c:646]--cmd = webdownload
+[2021-07-14 19:33:15]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"ll,e96a6ef3b0093fe52ca9f719eccd","filename":"jquery.cookie.js-master.zip"}
+[2021-07-14 19:55:00]--[./src_cgi/download_cgi.c:646]--cmd = code
+[2021-07-14 19:55:00]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 19:57:43]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 19:57:43]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 19:57:56]--[./src_cgi/download_cgi.c:646]--cmd = code
+[2021-07-14 19:57:56]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 19:57:56]--[./src_cgi/download_cgi.c:443]--mysql_query error[2021-07-14 20:00:46]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:00:46]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:00:55]--[./src_cgi/download_cgi.c:646]--cmd = code
+[2021-07-14 20:00:55]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 20:00:55]--[./src_cgi/download_cgi.c:443]--Failed to exec sql:[select file_info.url,file_info.size,file_info.file_name,file_info.md5,file_code_list.create_time,file_code_list.effect_time from file_code_list,file_info where file_info.md5 = file_code_list.md5 and file_code_list.file_code = 'znwIk2XF']
+[2021-07-14 20:02:42]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:02:42]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:02:51]--[./src_cgi/download_cgi.c:646]--cmd = code
+[2021-07-14 20:02:51]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 20:05:03]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:05:03]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:05:12]--[./src_cgi/download_cgi.c:646]--cmd = code
+[2021-07-14 20:05:12]--[./src_cgi/download_cgi.c:682]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 20:05:12]--[./src_cgi/download_cgi.c:719]--url = 
+[2021-07-14 20:07:21]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:07:21]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:07:30]--[./src_cgi/download_cgi.c:652]--cmd = code
+[2021-07-14 20:07:30]--[./src_cgi/download_cgi.c:688]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 20:07:30]--[./src_cgi/download_cgi.c:409]--redis connected 111[2021-07-14 20:07:30]--[./src_cgi/download_cgi.c:414]--redis connected 222[2021-07-14 20:07:30]--[./src_cgi/download_cgi.c:725]--code:[znwIk2XF] url:[]
+[2021-07-14 20:12:08]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:12:08]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"znwIk2XF"}
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:412]--redis connected 222
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:415]--redis connected 323
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:481]--redis connected 623  106749 刘谍-论文进度 .docx a00d2d90eefc2941a66d03f62599db7 2021-07-14 19:52:19 7
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:12:18]--[./src_cgi/download_cgi.c:731]--code:[znwIk2XF] url:[]
+[2021-07-14 20:13:15]--[./src_cgi/download_cgi.c:658]--cmd = webdownload
+[2021-07-14 20:13:15]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a00d2d90eefc2941a66d03f62599db7","filename":"刘谍-论文进度 .docx"}
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"hL7Y6G8Y"}
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:481]--redis connected 623  106749 刘谍-论文进度 .docx a00d2d90eefc2941a66d03f62599db7 2021-07-14 20:13:20 7
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:13:31]--[./src_cgi/download_cgi.c:731]--code:[hL7Y6G8Y] url:[]
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:20:52]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:24:51]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:24:52]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:24:53]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:24:55]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:25:55]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","code":"3VtcxlSO"}
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:26:17]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:26:43]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:26:43]--[./src_cgi/download_cgi.c:694]--buf = {"user":null,"token":null,"code":"3VtcxlSO"}
+[2021-07-14 20:29:47]--[./src_cgi/download_cgi.c:52]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 20:29:47]--[./src_cgi/download_cgi.c:56]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 20:29:51]--[./src_cgi/download_cgi.c:658]--cmd = webdownload
+[2021-07-14 20:29:51]--[./src_cgi/download_cgi.c:694]--buf = {"user":"cajs","token":"3d2de5624c7ed21c4a353d5f20c825b9","md5":"6c281b66984eb337a5bfb6a01dd5428","filename":"little forest (4).jpg"}
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"cb0f495695a27ce7d153424d24fd22dc","code":"3VtcxlSO"}
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:30:12]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:658]--cmd = code
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:694]--buf = {"user":"njzy","token":"cb0f495695a27ce7d153424d24fd22dc","code":"3VtcxlSO"}
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:432]--redis connected 423
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:470]--redis connected 523
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:481]--redis connected 623 http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf 2708176 Industrial Internet时延.pdf ll,23eba50590b5356f76d142882520 2021-07-14 20:20:20 7
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:484]--redis connected 723
+[2021-07-14 20:30:41]--[./src_cgi/download_cgi.c:731]--code:[3VtcxlSO] url:[http://192.168.1.130:80/group1/M00/00/00/wKgBgmDqumaAHAQyAClS0A8G-6E154.pdf]

@@ -414,6 +414,7 @@ int main()
     //count 获取用户文件个数
     //display 获取用户文件信息，展示到前端
     char cmd[20];
+    int cmdlen = 0;
     char user[USER_NAME_LEN];
     char token[TOKEN_LEN];
 
@@ -428,7 +429,7 @@ int main()
         char *query = getenv("QUERY_STRING");
 
         //解析命令
-        query_parse_key_value(query, "cmd", cmd, NULL);
+        query_parse_key_value(query, "cmd", cmd, &cmdlen);
         LOG(MYFILES_LOG_MODULE, MYFILES_LOG_PROC, "cmd = %s\n", cmd);
 
         char *contentLength = getenv("CONTENT_LENGTH");

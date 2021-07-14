@@ -15,6 +15,49 @@ function dealfile(target_url,send_data){
     });
 }
 
+function dealdownCnt(target_url,send_data){
+    $.ajax({
+        type : 'post',
+        url : target_url, 
+        cache : false,
+        data : send_data,  
+        dataType : 'json', 
+        success : function(data){
+          console.log(data);
+        },
+        error : function(){ 
+          alert("fail to deal file!");
+        }
+    });
+}
+
+function dealdownloadfile(target_url,send_data,filename){
+    $.ajax({
+        type : 'post',
+        url : target_url, 
+        cache : false,
+        data : send_data,  
+        dataType : 'json', 
+        success : function(data){
+          console.log(data);
+          if(data["code"] === "110"){
+            var target_url =  GetPostUrlPath("dealsharefile.jsp?cmd=pv");
+            dealdownCnt(target_url,send_data);
+
+            var a = document.createElement("a");    //模拟链接，进行点击下载
+            a.href = data["token"];
+            a.style.display = "none";    //不显示
+            a.download = filename;
+            a.click();
+          }
+        },
+        error : function(){ 
+          alert("fail to deal file!");
+        }
+    });
+}
+
+
 $(document).ready(function(){
     var menu = new BootstrapMenu('.filemember', {
       fetchElementData: function($rowElem) {
@@ -51,9 +94,8 @@ $(document).ready(function(){
                 "md5" : row.filemd5,
                 "filename" : row.filename
             });
-            var target_url =  GetPostUrlPath("dealsharefile.jsp?cmd=download");
-
-            console.log(data,target_url);
+            var target_url =  GetPostUrlPath("download.jsp?cmd=webdownload");
+            dealdownloadfile(target_url,data);
           },
           isEnabled: function(row) {
             return true;
@@ -70,7 +112,7 @@ $(document).ready(function(){
                 "filename" : row.filename
             });
             var target_url =  GetPostUrlPath("dealsharefile.jsp?cmd=cancel");
-            dealfile(target_url,data);
+            dealfile(target_url,data,row.filename);
           },
           isEnabled: function(row) {
             return true;

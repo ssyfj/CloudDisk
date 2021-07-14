@@ -400,7 +400,7 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
     redis_conn = rop_connectdb_nopwd(redis_ip, redis_port);
     if (redis_conn == NULL)
     {
-        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected error");
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected error\n");
         ret = -1;
         goto failed;
     }
@@ -409,9 +409,15 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
     ret2 = rop_zset_exit(redis_conn, CODE_PUBLIC_ZSET, code);
     if(ret2 == 1) //存在,则返回Url
     {
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 222\n");
+
         ret2 = rop_hash_get(redis_conn, CODE_URL_HASH, code, codeVal);                 //获取文件提取码的url
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 323\n");
+
         if(ret2 == 1)
         {
+            LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 333\n");
+
             //开始截取size和url
             strplit(codeVal,'_',us,1);
             //获取返回结果
@@ -423,6 +429,8 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
     }
 
     //-------------------------2.操作mysql查看是否存在url-------------------------
+    LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 423\n");
+
     conn = mysql_conn(mysql_user, mysql_pwd, mysql_db);
     if (conn == NULL)
     {
@@ -435,12 +443,11 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
     mysql_query(conn, "set names utf8");
 
     //连表查询
-    sprintf(sql_cmd, "select file_info.url,file_info.size,file_info.file_name,file_info.md5,file_code_list.create_time,file_code_list.effect_time from file_code_list,file_info where file_info.md5 == file_code_list.md5 and file_code_list.file_code = '%s'", code);
-
+    sprintf(sql_cmd, "select file_info.url,file_info.size,file_code_list.file_name,file_info.md5,file_code_list.create_time,file_code_list.effect_time from file_code_list,file_info where file_info.md5 = file_code_list.md5 and file_code_list.file_code = '%s'", code);
 
     if(mysql_query(conn,sql_cmd) != 0)      //进行数据查询
     {
-        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "mysql_query error");
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "Failed to exec sql:[%s]\n", sql_cmd);
         ret = -1;
         goto failed;
     }
@@ -448,7 +455,7 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
     res_set = mysql_store_result(conn);     //生成结果集
     if(res_set == NULL)
     {
-        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "mysql_store_result error");
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "mysql_store_result error\n");
         ret = -1;
         goto failed;
     }
@@ -460,6 +467,7 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
         goto failed;
     }
 
+    LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 523\n");
     //可能存在多个数据，我们只需要去获取一行数据
     if((row = mysql_fetch_row(res_set)) != NULL)
     {
@@ -469,7 +477,11 @@ int get_code_url(char *code,char *url,char *size,char *filename,char *md5)
         strcpy(md5,row[3]);
         strcpy(createtime,row[4]);
         strcpy(effecttime,row[5]);
+        LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 623 %s %s %s %s %s %s\n",
+            url,size,filename,md5,createtime,effecttime);
+
     }
+    LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "redis connected 723\n");
 
     //判断数据是否过期
     struct tm stm;  
@@ -624,6 +636,7 @@ END:
 int main()
 {
     char cmd[20];
+    int cmd_len = 0;
     char user[USER_NAME_LEN];                       //用户名
     char token[TOKEN_LEN];                          //token
     char md5[MD5_LEN];                              //文件md5码
@@ -641,7 +654,7 @@ int main()
         char *query = getenv("QUERY_STRING");
 
         //解析命令
-        query_parse_key_value(query, "cmd", cmd, NULL);
+        query_parse_key_value(query, "cmd", cmd, &cmd_len);
         LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "cmd = %s\n", cmd);
 
         printf("Content-type: text/html\r\n\r\n");
@@ -698,7 +711,7 @@ int main()
                     goto END;                           //跳过本次循环   
                 }
 
-                if(atoi(size) > 100 * 1024)
+                if(atoi(size) > 100 * 1024 * 1024)
                 {
                     return_download_status("112","big file, please download in client");
                 }
@@ -713,16 +726,11 @@ int main()
                 get_code_json_info(buf, user, token,code);
                 ret2 = verify_token(user, token);        //验证登陆token，成功返回0，失败-1
 
-                if(ret != 0)
-                {
-                    return_download_status("111","failed"); //token验证失败错误码
-                    goto END;                           //跳过本次循环   
-                }
-
                 //获取url信息
                 ret = get_code_url(code,url,size,filename,md5);
+                LOG(DOWNLOAD_LOG_MODULE, DOWNLOAD_LOG_PROC, "code:[%s] url:[%s]\n", code,url);
 
-                if(atoi(size) > 100 * 1024)
+                if(atoi(size) > 100 * 1024 * 1024)
                 {
                     if(ret2 != 0)
                     {

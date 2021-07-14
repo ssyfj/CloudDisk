@@ -1,0 +1,312 @@
+[2021-07-14 18:13:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:13:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:17:50]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:17:50]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:29]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:29]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:29]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:29]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:40]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:40]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:44]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:44]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:44]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:44]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:20:50]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:20:50]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:21:18]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:21:18]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:23:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:23:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:33:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:33:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:34:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:34:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:34:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:34:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:36:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:36:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:36:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:36:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:40:01]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:40:01]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:40:01]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:40:01]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:42:21]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:42:21]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:42:21]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:42:21]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:42:28]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:42:28]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:42:28]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:42:28]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:43:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:43:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 18:53:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 18:53:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:01:57]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:01:57]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:02:22]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:02:22]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:03:24]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:03:24]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:03:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:03:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:04:11]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:04:11]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:04:42]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:04:42]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:10:07]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:10:07]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:11:58]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:11:58]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:12:28]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:12:28]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:13:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:13:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:13:54]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:13:54]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:14:01]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:14:01]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:14:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:14:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:14:26]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:14:26]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:14:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:14:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:15:09]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:15:09]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:15:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:15:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:15:21]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:15:21]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:19:59]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:19:59]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:20:32]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:20:32]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:20:46]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:20:46]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:02]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:02]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:07]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:07]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:12]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:12]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:26]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:26]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:44]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:44]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:57]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:57]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:21:57]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:21:57]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:22:28]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:22:28]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:22:38]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:22:38]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:23:03]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:23:03]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:23:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:23:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:00]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:00]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:00]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:00]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:11]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:11]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:11]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:11]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:31]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:31]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:31]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:31]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:44]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:44]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:30:44]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:30:44]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:15]--[./common/redis_op.c:1393]--[-][GMS_REDIS]Add or increment table: FILE_PUBLIC_ZSET,member: d6daf8e4ae1a6a7fa35bc8135323390全局路由调度.doc Error:1,
+[2021-07-14 19:31:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:27]--[./common/redis_op.c:1393]--[-][GMS_REDIS]Add or increment table: FILE_PUBLIC_ZSET,member: a46d16b2aee7d0467cc839cd34f0bd0TNET.2019.2918782.pdf Error:1,
+[2021-07-14 19:31:27]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:31:45]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:14]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:14]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:14]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:14]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:29]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:29]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:29]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:29]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:42]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:42]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:42]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:42]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:32:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:32:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:33:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:33:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:33:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:33:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:33:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:33:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:43:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:43:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:43:43]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:43:43]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:43:43]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:43:43]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:46:01]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:46:01]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:46:01]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:46:01]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:47:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:47:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:47:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:47:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:52:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:52:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:52:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:52:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:53:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:53:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:55:00]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:55:00]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:57:56]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:57:56]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 19:57:56]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 19:57:56]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:00:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:00:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:00:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:00:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:02:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:02:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:02:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:02:51]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: znwIk2XF Error:(null),
+[2021-07-14 20:02:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:03:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:03:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:05:12]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:05:12]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:05:12]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:05:12]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: znwIk2XF Error:(null),
+[2021-07-14 20:05:12]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:07:30]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:07:30]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:07:30]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:07:30]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: znwIk2XF Error:(null),
+[2021-07-14 20:07:30]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:12:18]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:12:18]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:12:18]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:12:18]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: znwIk2XF Error:(null),
+[2021-07-14 20:12:18]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:15]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:15]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:31]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:31]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:31]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:31]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: hL7Y6G8Y Error:(null),
+[2021-07-14 20:13:31]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:13:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:13:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:20:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:20:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:20:20]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:20:20]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:20:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:20:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:20:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:20:52]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:20:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:23:39]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:23:39]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:51]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:24:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:52]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:52]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:24:52]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:24:53]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:53]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:24:53]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:24:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:24:55]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:24:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:25:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:25:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:25:55]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:25:55]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:25:55]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:26:17]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:26:17]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:26:17]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:26:17]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:26:17]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:28:00]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:28:00]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:28:22]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:28:22]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:28:22]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:28:22]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:29:19]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:29:19]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:29:51]--[./common/redis_op.c:1393]--[-][GMS_REDIS]Add or increment table: FILE_PUBLIC_ZSET,member: 6c281b66984eb337a5bfb6a01dd5428little forest (4).jpg Error:1,
+[2021-07-14 20:29:51]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:30:12]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:30:12]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:30:12]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:30:12]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:30:12]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:30:41]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:30:41]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!
+[2021-07-14 20:30:41]--[./common/redis_op.c:369]--[+][GMS_REDIS]Connect 127.0.0.1:6379 SUCCESS!
+[2021-07-14 20:30:41]--[./common/redis_op.c:1126]--[-][GMS_REDIS]ZADD: CODE_PUBLIC_ZSET,member: 3VtcxlSO Error:(null),
+[2021-07-14 20:30:41]--[./common/redis_op.c:525]--[+][GMS_REDIS]Disconnect SUCCESS!

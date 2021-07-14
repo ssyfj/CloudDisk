@@ -736,6 +736,7 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
     char codeVal[1024] = {0};
     int ret2 = 0;
     MYSQL_RES *res_set = NULL;                                  //结果集指针
+    MYSQL_ROW row;
 
 
     //先获取时间信息---后面都会用到！！！
@@ -789,7 +790,7 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
     {
         print_error(conn,"mysql_query error!\n");
         ret = -1;
-        goto failed;
+        goto END;
     }
 
     res_set = mysql_store_result(conn); //生成结果集
@@ -797,14 +798,14 @@ int set_extra_code(char *user, char *md5, char *filename,char *extra_code)
     {
         print_error(conn,"mysql_store_result error!\n");
         ret = -1;
-        goto failed;
+        goto END;
     }
 
     ulong line = mysql_num_rows(res_set);
     if(line == 0)
     {
         ret = -1;                        //没有查询到数据
-        goto failed;
+        goto END;
     }
 
     //可能存在多个数据，我们只需要去获取一行数据

@@ -4975,3 +4975,134 @@ spawned uWSGI worker 2 (pid: 4595, cores: 1)
 spawned uWSGI worker 3 (pid: 4596, cores: 1)
 spawned uWSGI worker 4 (pid: 4597, cores: 1)
 *** Stats server enabled on 127.0.0.1:8081 fd: 18 ***
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul 14 18:09:48 2021] ***
+compiled with version: 5.4.0 20160609 on 05 July 2021 11:22:54
+os: Linux-4.10.14 #1 SMP Thu Sep 10 14:20:13 CST 2020
+nodename: njzy-virtual-machine
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/njzy
+writing pidfile to /tmp/project-master.pid
+detected binary path: /home/njzy/.local/bin/uwsgi
+chdir() to /home/njzy/Django/CloudDisk
+your processes number limit is 6661
+limiting address space of processes...
+your process address space limit is 1073741824 bytes (1024 MB)
+your memory page size is 4096 bytes
+ *** WARNING: you have enabled harakiri without post buffering. Slow upload could be rejected on post-unbuffered webservers *** 
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/njzy/Django/CloudDisk/clouddisk.sock fd 6
+Python version: 3.8.1 (default, Jul  5 2021, 19:20:56)  [GCC 5.4.0 20160609]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25dd8b0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 364600 bytes (356 KB) for 4 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25dd8b0 pid: 3209 (default app)
+mountpoint  already configured. skip.
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3209)
+spawned uWSGI worker 1 (pid: 3211, cores: 1)
+spawned uWSGI worker 2 (pid: 3212, cores: 1)
+spawned uWSGI worker 3 (pid: 3213, cores: 1)
+spawned uWSGI worker 4 (pid: 3214, cores: 1)
+*** Stats server enabled on 127.0.0.1:8081 fd: 18 ***
+None None
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+Not Found: /favicon.ico
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: b'74f2a76afbb65acae9e846cf0f3d9f5a' {'user': 'njzy'}
+b'{"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a"}'
+njzy 74f2a76afbb65acae9e846cf0f3d9f5a
+redis token: None {'user': 'null'}
+None None
+njzy cb0f495695a27ce7d153424d24fd22dc
+redis token: b'cb0f495695a27ce7d153424d24fd22dc' {'user': 'njzy'}
+Not Found: /favicon.ico
+b'{"user":"njzy","token":"cb0f495695a27ce7d153424d24fd22dc"}'
+njzy cb0f495695a27ce7d153424d24fd22dc
+redis token: None {'user': 'null'}
+njzy cb0f495695a27ce7d153424d24fd22dc
+redis token: None {'user': 'null'}

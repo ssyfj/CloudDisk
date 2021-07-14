@@ -1,0 +1,2 @@
+[2021-07-14 18:14:08]--[./src_cgi/myfile_cgi.c:40]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 18:14:08]--[./src_cgi/myfile_cgi.c:44]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 19:01:18]--[./src_cgi/myfile_cgi.c:40]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 19:01:18]--[./src_cgi/myfile_cgi.c:44]--redis:[ip=127.0.0.1,port=6379]

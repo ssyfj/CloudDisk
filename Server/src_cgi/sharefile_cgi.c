@@ -559,6 +559,7 @@ int main()
     char cmd[20];
     char count[20];
     int ret = 0;
+    int cmdLen = 0;
 
     //读取数据库配置信息
     read_cfg();
@@ -571,7 +572,7 @@ int main()
         char *query = getenv("QUERY_STRING");
 
         //解析命令
-        query_parse_key_value(query, "cmd", cmd, NULL);
+        query_parse_key_value(query, "cmd", cmd, &cmdLen);
         LOG(SHAREFILES_LOG_MODULE, SHAREFILES_LOG_PROC, "cmd = %s\n", cmd);
 
         printf("Content-type: text/html\r\n\r\n");

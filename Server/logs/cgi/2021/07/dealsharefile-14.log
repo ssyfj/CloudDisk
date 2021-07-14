@@ -1,0 +1,37 @@
+[2021-07-14 18:13:50]--[./src_cgi/dealsharefile_cgi.c:46]--mysql:[user=root,pwd=root,database=cloud_disk][2021-07-14 18:13:50]--[./src_cgi/dealsharefile_cgi.c:50]--redis:[ip=127.0.0.1,port=6379]
+[2021-07-14 18:20:40]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-14 18:20:40]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"6c281b66984eb337a5bfb6a01dd5428","filename":"little forest (4).jpg"}
+[2021-07-14 18:20:40]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = 6c281b66984eb337a5bfb6a01dd5428, file_name = little forest (4).jpg
+[2021-07-14 18:20:44]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = cancel
+[2021-07-14 18:20:44]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"6c281b66984eb337a5bfb6a01dd5428","filename":"little forest (4).jpg"}
+[2021-07-14 18:20:44]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = 6c281b66984eb337a5bfb6a01dd5428, file_name = little forest (4).jpg
+[2021-07-14 18:20:44]--[./src_cgi/dealsharefile_cgi.c:191]--Failed to exec sql:[select id from share_file_list where user = 'njzy' and md5 = '6c281b66984eb337a5bfb6a01dd5428' and file_name = 'little forest (4).jpg'] or the file[little forest (4).jpg] is not shared by user[njzy]
+[2021-07-14 18:20:50]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-14 18:20:50]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"5e03866a95b4d9031a835c85ee4ebef","filename":"未命名文件.png"}
+[2021-07-14 18:20:50]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = 5e03866a95b4d9031a835c85ee4ebef, file_name = 未命名文件.png
+[2021-07-14 18:21:18]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = save
+[2021-07-14 18:21:18]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"dbf4b1a07b2909889711620f225990b","filename":"little forest (5).jpg"}
+[2021-07-14 18:21:18]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = dbf4b1a07b2909889711620f225990b, file_name = little forest (5).jpg
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = pv
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"d6daf8e4ae1a6a7fa35bc8135323390","filename":"全局路由调度.doc"}
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = d6daf8e4ae1a6a7fa35bc8135323390, file_name = 全局路由调度.doc
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:455]--sql:select pv from share_file_list where md5 = 'd6daf8e4ae1a6a7fa35bc8135323390' and file_name = '全局路由调度.doc'
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:471]--sql:update share_file_list set pv = 1 where md5 = 'd6daf8e4ae1a6a7fa35bc8135323390' and file_name = '全局路由调度.doc'
+[2021-07-14 19:31:15]--[./src_cgi/dealsharefile_cgi.c:489]--Failed to rop_zset_increment
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = pv
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"a46d16b2aee7d0467cc839cd34f0bd0","filename":"TNET.2019.2918782.pdf"}
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = a46d16b2aee7d0467cc839cd34f0bd0, file_name = TNET.2019.2918782.pdf
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:455]--sql:select pv from share_file_list where md5 = 'a46d16b2aee7d0467cc839cd34f0bd0' and file_name = 'TNET.2019.2918782.pdf'
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:471]--sql:update share_file_list set pv = 1 where md5 = 'a46d16b2aee7d0467cc839cd34f0bd0' and file_name = 'TNET.2019.2918782.pdf'
+[2021-07-14 19:31:27]--[./src_cgi/dealsharefile_cgi.c:489]--Failed to rop_zset_increment
+[2021-07-14 19:31:45]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = pv
+[2021-07-14 19:31:45]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"njzy","token":"74f2a76afbb65acae9e846cf0f3d9f5a","md5":"4e04ad917b40145184349857ac93df1","filename":"发展党员票决制文件附件.pdf"}
+[2021-07-14 19:31:45]--[./src_cgi/dealsharefile_cgi.c:593]--user = njzy, token = 74f2a76afbb65acae9e846cf0f3d9f5a, md5 = 4e04ad917b40145184349857ac93df1, file_name = 发展党员票决制文件附件.pdf
+[2021-07-14 19:31:45]--[./src_cgi/dealsharefile_cgi.c:455]--sql:select pv from share_file_list where md5 = '4e04ad917b40145184349857ac93df1' and file_name = '发展党员票决制文件附件.pdf'
+[2021-07-14 19:31:45]--[./src_cgi/dealsharefile_cgi.c:471]--sql:update share_file_list set pv = 1 where md5 = '4e04ad917b40145184349857ac93df1' and file_name = '发展党员票决制文件附件.pdf'
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:558]--cmd = pv
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:590]--buf = {"user":"cajs","token":"3d2de5624c7ed21c4a353d5f20c825b9","md5":"6c281b66984eb337a5bfb6a01dd5428","filename":"little forest (4).jpg"}
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:593]--user = cajs, token = 3d2de5624c7ed21c4a353d5f20c825b9, md5 = 6c281b66984eb337a5bfb6a01dd5428, file_name = little forest (4).jpg
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:455]--sql:select pv from share_file_list where md5 = '6c281b66984eb337a5bfb6a01dd5428' and file_name = 'little forest (4).jpg'
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:471]--sql:update share_file_list set pv = 1 where md5 = '6c281b66984eb337a5bfb6a01dd5428' and file_name = 'little forest (4).jpg'
+[2021-07-14 20:29:51]--[./src_cgi/dealsharefile_cgi.c:489]--Failed to rop_zset_increment
